@@ -1,12 +1,12 @@
-\# File ecosystem
+# File ecosystem
 
 
 
-This document explains the file ecosystem around \*\*PEDAGOGY.md\*\*.
+This document explains the file ecosystem around **PEDAGOGY.md**.
 
 
 
-\*\*PEDAGOGY.md\*\* is designed as the core pedagogical specification file of a course, subject, module or learning experience. It should define the main pedagogical logic of the course, but it should not contain every operational detail.
+**PEDAGOGY.md** is designed as the core pedagogical specification file of a course, subject, module or learning experience. It should define the main pedagogical logic of the course, but it should not contain every operational detail.
 
 
 
@@ -14,11 +14,11 @@ When information becomes too long, too specific or too frequently updated, it sh
 
 
 
-\---
+---
 
 
 
-\## 1. Core idea
+## 1. Core idea
 
 
 
@@ -26,7 +26,7 @@ The file ecosystem follows a modular principle:
 
 
 
-> \*\*PEDAGOGY.md\*\* defines the pedagogical matrix. Complementary files develop specific dimensions of the course.
+> **PEDAGOGY.md** defines the pedagogical matrix. Complementary files develop specific dimensions of the course.
 
 
 
@@ -34,25 +34,25 @@ This avoids two problems:
 
 
 
-1\. Overloading \*\*PEDAGOGY.md\*\* with too much operational detail.
+1. Overloading **PEDAGOGY.md** with too much operational detail.
 
-2\. Fragmenting the course design into disconnected documents without a common pedagogical reference.
-
-
-
-The goal is to keep \*\*PEDAGOGY.md\*\* readable, stable and useful as a context file for teachers, teaching teams and AI systems.
+2. Fragmenting the course design into disconnected documents without a common pedagogical reference.
 
 
 
-\---
+The goal is to keep **PEDAGOGY.md** readable, stable and useful as a context file for teachers, teaching teams and AI systems.
 
 
 
-\## 2. Recommended repository structure
+---
 
 
 
-A course-level implementation of \*\*PEDAGOGY.md\*\* may use the following structure:
+## 2. Recommended repository structure
+
+
+
+A course-level implementation of **PEDAGOGY.md** may use the following structure:
 
 
 
@@ -126,11 +126,11 @@ course-name/
 
 └── skills/
 
-&#x20;   ├── generate-case.md
+    ├── generate-case.md
 
-&#x20;   ├── review-draft.md
+    ├── review-draft.md
 
-&#x20;   └── create-rubric.md
+    └── create-rubric.md
 
 ```
 
@@ -140,23 +140,23 @@ Not every course needs all these files.
 
 
 
-For a first implementation, \*\*PEDAGOGY.md\*\* may be enough. Additional files should be added only when they improve clarity, maintainability or reuse.
+For a first implementation, **PEDAGOGY.md** may be enough. Additional files should be added only when they improve clarity, maintainability or reuse.
 
 
 
-\---
+---
 
 
 
-\## 3. Main file: PEDAGOGY.md
+## 3. Main file: PEDAGOGY.md
 
 
 
-\### Function
+### Function
 
 
 
-\*\*PEDAGOGY.md\*\* is the matrix file.
+**PEDAGOGY.md** is the matrix file.
 
 
 
@@ -164,69 +164,69 @@ It defines the general pedagogical, methodological, assessment, organizational, 
 
 
 
-\### It should include
+### It should include
 
 
 
-\- course identity;
+- course identity;
 
-\- educational context;
+- educational context;
 
-\- learner profile;
+- learner profile;
 
-\- learning outcomes and competences;
+- learning outcomes and competences;
 
-\- pedagogical principles;
+- pedagogical principles;
 
-\- methodological approach;
+- methodological approach;
 
-\- content organization;
+- content organization;
 
-\- learning activity ecosystem;
+- learning activity ecosystem;
 
-\- assessment model;
+- assessment model;
 
-\- feedback model;
+- feedback model;
 
-\- quality criteria;
+- quality criteria;
 
-\- roles and responsibilities;
+- roles and responsibilities;
 
-\- AI use policy;
+- AI use policy;
 
-\- AI agent behaviour;
+- AI agent behaviour;
 
-\- inclusion and accessibility principles;
+- inclusion and accessibility principles;
 
-\- learning evidence and analytics principles;
+- learning evidence and analytics principles;
 
-\- related files;
+- related files;
 
-\- versioning and maintenance.
-
-
-
-\### It should not include
+- versioning and maintenance.
 
 
 
-\- every detailed activity instruction;
+### It should not include
 
-\- full rubrics for all tasks;
 
-\- complete reading lists if they are long;
 
-\- all prompts;
+- every detailed activity instruction;
 
-\- complete banks of cases;
+- full rubrics for all tasks;
 
-\- all feedback templates;
+- complete reading lists if they are long;
 
-\- all AI agent system prompts;
+- all prompts;
 
-\- detailed analytics dashboards;
+- complete banks of cases;
 
-\- large collections of teaching resources.
+- all feedback templates;
+
+- all AI agent system prompts;
+
+- detailed analytics dashboards;
+
+- large collections of teaching resources.
 
 
 
@@ -234,19 +234,19 @@ Those details should be modularized.
 
 
 
-\---
+---
 
 
 
-\## 4. Complementary files
+## 4. Complementary files
 
 
 
-\### 4.1 assessment.md
+### 4.1 assessment.md
 
 
 
-\#### Function
+#### Function
 
 
 
@@ -254,47 +254,47 @@ Those details should be modularized.
 
 
 
-It expands the Assessment Design section of \*\*PEDAGOGY.md\*\*.
+It expands the Assessment Design section of **PEDAGOGY.md**.
 
 
 
-\#### Recommended content
+#### Recommended content
 
 
 
-\- assessment philosophy;
+- assessment philosophy;
 
-\- assessment tasks;
+- assessment tasks;
 
-\- weighting;
+- weighting;
 
-\- minimum requirements;
+- minimum requirements;
 
-\- assessment criteria;
+- assessment criteria;
 
-\- evidence of learning;
+- evidence of learning;
 
-\- rubrics;
+- rubrics;
 
-\- grading rules;
+- grading rules;
 
-\- reassessment rules;
+- reassessment rules;
 
-\- academic integrity expectations;
+- academic integrity expectations;
 
-\- AI use in assessment;
+- AI use in assessment;
 
-\- examples of performance levels;
+- examples of performance levels;
 
-\- moderation or review procedures.
-
-
-
-\#### Use this file when
+- moderation or review procedures.
 
 
 
-Use `assessment.md` when assessment information is too detailed for \*\*PEDAGOGY.md\*\*.
+#### Use this file when
+
+
+
+Use `assessment.md` when assessment information is too detailed for **PEDAGOGY.md**.
 
 
 
@@ -306,11 +306,11 @@ For example:
 
 
 
-\#### Relationship with PEDAGOGY.md
+#### Relationship with PEDAGOGY.md
 
 
 
-\*\*PEDAGOGY.md\*\* should summarize the assessment model.
+**PEDAGOGY.md** should summarize the assessment model.
 
 
 
@@ -318,15 +318,15 @@ For example:
 
 
 
-\---
+---
 
 
 
-\### 4.2 activities.md
+### 4.2 activities.md
 
 
 
-\#### Function
+#### Function
 
 
 
@@ -334,43 +334,43 @@ For example:
 
 
 
-It expands the Learning Activities section of \*\*PEDAGOGY.md\*\*.
+It expands the Learning Activities section of **PEDAGOGY.md**.
 
 
 
-\#### Recommended content
+#### Recommended content
 
 
 
-\- task descriptions;
+- task descriptions;
 
-\- activity sequence;
+- activity sequence;
 
-\- weekly activities;
+- weekly activities;
 
-\- instructions for students;
+- instructions for students;
 
-\- timing;
+- timing;
 
-\- grouping;
+- grouping;
 
-\- required resources;
+- required resources;
 
-\- expected outputs;
+- expected outputs;
 
-\- submission rules;
+- submission rules;
 
-\- relation to learning outcomes;
+- relation to learning outcomes;
 
-\- relation to assessment;
+- relation to assessment;
 
-\- teacher notes;
+- teacher notes;
 
-\- AI use rules for each activity.
+- AI use rules for each activity.
 
 
 
-\#### Use this file when
+#### Use this file when
 
 
 
@@ -398,11 +398,11 @@ Lecture → Practice → Project → Reflection
 
 
 
-\#### Relationship with PEDAGOGY.md
+#### Relationship with PEDAGOGY.md
 
 
 
-\*\*PEDAGOGY.md\*\* should describe the activity ecosystem.
+**PEDAGOGY.md** should describe the activity ecosystem.
 
 
 
@@ -410,15 +410,15 @@ Lecture → Practice → Project → Reflection
 
 
 
-\---
+---
 
 
 
-\### 4.3 content.md
+### 4.3 content.md
 
 
 
-\#### Function
+#### Function
 
 
 
@@ -426,43 +426,43 @@ Lecture → Practice → Project → Reflection
 
 
 
-It expands the Content Organization section of \*\*PEDAGOGY.md\*\*.
+It expands the Content Organization section of **PEDAGOGY.md**.
 
 
 
-\#### Recommended content
+#### Recommended content
 
 
 
-\- topics;
+- topics;
 
-\- conceptual blocks;
+- conceptual blocks;
 
-\- weekly sequence;
+- weekly sequence;
 
-\- key concepts;
+- key concepts;
 
-\- threshold concepts;
+- threshold concepts;
 
-\- required readings;
+- required readings;
 
-\- recommended readings;
+- recommended readings;
 
-\- multimedia resources;
+- multimedia resources;
 
-\- links;
+- links;
 
-\- bibliography;
+- bibliography;
 
-\- relation between contents and outcomes;
+- relation between contents and outcomes;
 
-\- relation between contents and activities;
+- relation between contents and activities;
 
-\- update notes.
+- update notes.
 
 
 
-\#### Use this file when
+#### Use this file when
 
 
 
@@ -470,11 +470,11 @@ Use `content.md` when the course has many topics, readings, resources or concept
 
 
 
-\#### Relationship with PEDAGOGY.md
+#### Relationship with PEDAGOGY.md
 
 
 
-\*\*PEDAGOGY.md\*\* should define the conceptual structure.
+**PEDAGOGY.md** should define the conceptual structure.
 
 
 
@@ -482,15 +482,15 @@ Use `content.md` when the course has many topics, readings, resources or concept
 
 
 
-\---
+---
 
 
 
-\### 4.4 ai-policy.md
+### 4.4 ai-policy.md
 
 
 
-\#### Function
+#### Function
 
 
 
@@ -498,47 +498,47 @@ Use `content.md` when the course has many topics, readings, resources or concept
 
 
 
-It expands the AI Use Policy section of \*\*PEDAGOGY.md\*\*.
+It expands the AI Use Policy section of **PEDAGOGY.md**.
 
 
 
-\#### Recommended content
+#### Recommended content
 
 
 
-\- general AI policy;
+- general AI policy;
 
-\- allowed uses;
+- allowed uses;
 
-\- recommended uses;
+- recommended uses;
 
-\- restricted uses;
+- restricted uses;
 
-\- prohibited uses;
+- prohibited uses;
 
-\- AI use by students;
+- AI use by students;
 
-\- AI use by teachers;
+- AI use by teachers;
 
-\- AI use in assessment;
+- AI use in assessment;
 
-\- AI use in feedback;
+- AI use in feedback;
 
-\- transparency rules;
+- transparency rules;
 
-\- citation or acknowledgement rules;
+- citation or acknowledgement rules;
 
-\- privacy requirements;
+- privacy requirements;
 
-\- academic integrity rules;
+- academic integrity rules;
 
-\- examples of acceptable and unacceptable use;
+- examples of acceptable and unacceptable use;
 
-\- consequences of misuse.
+- consequences of misuse.
 
 
 
-\#### Use this file when
+#### Use this file when
 
 
 
@@ -546,11 +546,11 @@ Use `ai-policy.md` when AI use is relevant to the course or when students are al
 
 
 
-\#### Relationship with PEDAGOGY.md
+#### Relationship with PEDAGOGY.md
 
 
 
-\*\*PEDAGOGY.md\*\* should define the general AI policy.
+**PEDAGOGY.md** should define the general AI policy.
 
 
 
@@ -558,15 +558,15 @@ Use `ai-policy.md` when AI use is relevant to the course or when students are al
 
 
 
-\---
+---
 
 
 
-\### 4.5 feedback.md
+### 4.5 feedback.md
 
 
 
-\#### Function
+#### Function
 
 
 
@@ -574,43 +574,43 @@ Use `ai-policy.md` when AI use is relevant to the course or when students are al
 
 
 
-It expands the Feedback Model section of \*\*PEDAGOGY.md\*\*.
+It expands the Feedback Model section of **PEDAGOGY.md**.
 
 
 
-\#### Recommended content
+#### Recommended content
 
 
 
-\- feedback principles;
+- feedback principles;
 
-\- feedback tone;
+- feedback tone;
 
-\- feedback timing;
+- feedback timing;
 
-\- feedback depth;
+- feedback depth;
 
-\- feedback structure;
+- feedback structure;
 
-\- teacher feedback templates;
+- teacher feedback templates;
 
-\- peer feedback templates;
+- peer feedback templates;
 
-\- self-assessment prompts;
+- self-assessment prompts;
 
-\- AI-assisted feedback rules;
+- AI-assisted feedback rules;
 
-\- examples of good feedback;
+- examples of good feedback;
 
-\- examples of poor feedback;
+- examples of poor feedback;
 
-\- feedforward strategies;
+- feedforward strategies;
 
-\- escalation rules.
+- escalation rules.
 
 
 
-\#### Use this file when
+#### Use this file when
 
 
 
@@ -618,11 +618,11 @@ Use `feedback.md` when feedback is central to the course or when an AI assistant
 
 
 
-\#### Relationship with PEDAGOGY.md
+#### Relationship with PEDAGOGY.md
 
 
 
-\*\*PEDAGOGY.md\*\* should define the feedback model.
+**PEDAGOGY.md** should define the feedback model.
 
 
 
@@ -630,15 +630,15 @@ Use `feedback.md` when feedback is central to the course or when an AI assistant
 
 
 
-\---
+---
 
 
 
-\### 4.6 cases.md
+### 4.6 cases.md
 
 
 
-\#### Function
+#### Function
 
 
 
@@ -646,39 +646,39 @@ Use `feedback.md` when feedback is central to the course or when an AI assistant
 
 
 
-\#### Recommended content
+#### Recommended content
 
 
 
-\- case title;
+- case title;
 
-\- context;
+- context;
 
-\- actors;
+- actors;
 
-\- problem or dilemma;
+- problem or dilemma;
 
-\- available information;
+- available information;
 
-\- guiding questions;
+- guiding questions;
 
-\- expected analysis;
+- expected analysis;
 
-\- possible variants;
+- possible variants;
 
-\- difficulty level;
+- difficulty level;
 
-\- relation to learning outcomes;
+- relation to learning outcomes;
 
-\- relation to assessment;
+- relation to assessment;
 
-\- teacher notes;
+- teacher notes;
 
-\- AI use rules.
+- AI use rules.
 
 
 
-\#### Use this file when
+#### Use this file when
 
 
 
@@ -686,11 +686,11 @@ Use `cases.md` when the course uses case-based learning, problem-based learning,
 
 
 
-\#### Relationship with PEDAGOGY.md
+#### Relationship with PEDAGOGY.md
 
 
 
-\*\*PEDAGOGY.md\*\* should describe the role of cases in the methodology.
+**PEDAGOGY.md** should describe the role of cases in the methodology.
 
 
 
@@ -698,15 +698,15 @@ Use `cases.md` when the course uses case-based learning, problem-based learning,
 
 
 
-\---
+---
 
 
 
-\### 4.7 analytics.md
+### 4.7 analytics.md
 
 
 
-\#### Function
+#### Function
 
 
 
@@ -714,45 +714,45 @@ Use `cases.md` when the course uses case-based learning, problem-based learning,
 
 
 
-It expands the Learning Evidence and Analytics section of \*\*PEDAGOGY.md\*\*.
+It expands the Learning Evidence and Analytics section of **PEDAGOGY.md**.
 
 
 
-\#### Recommended content
+#### Recommended content
 
 
 
-\- evidence of learning;
+- evidence of learning;
 
-\- observable indicators;
+- observable indicators;
 
-\- data sources;
+- data sources;
 
-\- LMS data;
+- LMS data;
 
-\- activity data;
+- activity data;
 
-\- assessment data;
+- assessment data;
 
-\- feedback data;
+- feedback data;
 
-\- AI interaction data;
+- AI interaction data;
 
-\- interpretation rules;
+- interpretation rules;
 
-\- interpretation cautions;
+- interpretation cautions;
 
-\- privacy limits;
+- privacy limits;
 
-\- human oversight requirements;
+- human oversight requirements;
 
-\- use of analytics for teaching improvement;
+- use of analytics for teaching improvement;
 
-\- use of analytics for learner support.
+- use of analytics for learner support.
 
 
 
-\#### Use this file when
+#### Use this file when
 
 
 
@@ -760,11 +760,11 @@ Use `analytics.md` when the course uses learning analytics, LMS data, AI interac
 
 
 
-\#### Relationship with PEDAGOGY.md
+#### Relationship with PEDAGOGY.md
 
 
 
-\*\*PEDAGOGY.md\*\* should define the principles.
+**PEDAGOGY.md** should define the principles.
 
 
 
@@ -772,15 +772,15 @@ Use `analytics.md` when the course uses learning analytics, LMS data, AI interac
 
 
 
-\---
+---
 
 
 
-\### 4.8 ethics.md
+### 4.8 ethics.md
 
 
 
-\#### Function
+#### Function
 
 
 
@@ -788,39 +788,39 @@ Use `analytics.md` when the course uses learning analytics, LMS data, AI interac
 
 
 
-\#### Recommended content
+#### Recommended content
 
 
 
-\- privacy;
+- privacy;
 
-\- transparency;
+- transparency;
 
-\- academic integrity;
+- academic integrity;
 
-\- bias;
+- bias;
 
-\- fairness;
+- fairness;
 
-\- accessibility;
+- accessibility;
 
-\- inclusion;
+- inclusion;
 
-\- human oversight;
+- human oversight;
 
-\- data minimization;
+- data minimization;
 
-\- responsible AI use;
+- responsible AI use;
 
-\- protection of vulnerable learners;
+- protection of vulnerable learners;
 
-\- limits of automation;
+- limits of automation;
 
-\- institutional compliance.
+- institutional compliance.
 
 
 
-\#### Use this file when
+#### Use this file when
 
 
 
@@ -828,11 +828,11 @@ Use `ethics.md` when the course involves AI, student data, analytics, external p
 
 
 
-\#### Relationship with PEDAGOGY.md
+#### Relationship with PEDAGOGY.md
 
 
 
-\*\*PEDAGOGY.md\*\* should define ethical constraints at a general level.
+**PEDAGOGY.md** should define ethical constraints at a general level.
 
 
 
@@ -840,19 +840,19 @@ Use `ethics.md` when the course involves AI, student data, analytics, external p
 
 
 
-\---
+---
 
 
 
-\## 5. Folders
+## 5. Folders
 
 
 
-\### 5.1 rubrics/
+### 5.1 rubrics/
 
 
 
-\#### Function
+#### Function
 
 
 
@@ -860,7 +860,7 @@ The `rubrics/` folder stores specific rubrics.
 
 
 
-\#### Recommended contents
+#### Recommended contents
 
 
 
@@ -882,7 +882,7 @@ rubrics/
 
 
 
-\#### Use this folder when
+#### Use this folder when
 
 
 
@@ -890,11 +890,11 @@ Use `rubrics/` when the course has several tasks, products or competences assess
 
 
 
-\#### Relationship with PEDAGOGY.md
+#### Relationship with PEDAGOGY.md
 
 
 
-\*\*PEDAGOGY.md\*\* defines the general quality criteria.
+**PEDAGOGY.md** defines the general quality criteria.
 
 
 
@@ -902,15 +902,15 @@ Use `rubrics/` when the course has several tasks, products or competences assess
 
 
 
-\---
+---
 
 
 
-\### 5.2 resources/
+### 5.2 resources/
 
 
 
-\#### Function
+#### Function
 
 
 
@@ -918,7 +918,7 @@ The `resources/` folder stores teaching and learning resources.
 
 
 
-\#### Recommended contents
+#### Recommended contents
 
 
 
@@ -944,7 +944,7 @@ resources/
 
 
 
-\#### Use this folder when
+#### Use this folder when
 
 
 
@@ -952,11 +952,11 @@ Use `resources/` when the course uses multiple documents, links, readings, slide
 
 
 
-\#### Relationship with PEDAGOGY.md
+#### Relationship with PEDAGOGY.md
 
 
 
-\*\*PEDAGOGY.md\*\* identifies the role of resources.
+**PEDAGOGY.md** identifies the role of resources.
 
 
 
@@ -964,15 +964,15 @@ Use `resources/` when the course uses multiple documents, links, readings, slide
 
 
 
-\---
+---
 
 
 
-\### 5.3 prompts/
+### 5.3 prompts/
 
 
 
-\#### Function
+#### Function
 
 
 
@@ -980,7 +980,7 @@ The `prompts/` folder stores reusable prompts.
 
 
 
-\#### Recommended contents
+#### Recommended contents
 
 
 
@@ -1004,7 +1004,7 @@ prompts/
 
 
 
-\#### Use this folder when
+#### Use this folder when
 
 
 
@@ -1012,11 +1012,11 @@ Use `prompts/` when teachers or students repeatedly use AI for similar tasks.
 
 
 
-\#### Relationship with PEDAGOGY.md
+#### Relationship with PEDAGOGY.md
 
 
 
-\*\*PEDAGOGY.md\*\* defines the pedagogical and ethical boundaries.
+**PEDAGOGY.md** defines the pedagogical and ethical boundaries.
 
 
 
@@ -1024,15 +1024,15 @@ Use `prompts/` when teachers or students repeatedly use AI for similar tasks.
 
 
 
-\---
+---
 
 
 
-\### 5.4 agents/
+### 5.4 agents/
 
 
 
-\#### Function
+#### Function
 
 
 
@@ -1040,7 +1040,7 @@ The `agents/` folder describes course-specific AI agents.
 
 
 
-\#### Recommended contents
+#### Recommended contents
 
 
 
@@ -1062,7 +1062,7 @@ agents/
 
 
 
-\#### Use this folder when
+#### Use this folder when
 
 
 
@@ -1070,11 +1070,11 @@ Use `agents/` when the course uses different AI assistants with different roles.
 
 
 
-\#### Relationship with PEDAGOGY.md
+#### Relationship with PEDAGOGY.md
 
 
 
-\*\*PEDAGOGY.md\*\* defines the general AI agent behaviour.
+**PEDAGOGY.md** defines the general AI agent behaviour.
 
 
 
@@ -1082,15 +1082,15 @@ Use `agents/` when the course uses different AI assistants with different roles.
 
 
 
-\---
+---
 
 
 
-\### 5.5 skills/
+### 5.5 skills/
 
 
 
-\#### Function
+#### Function
 
 
 
@@ -1098,7 +1098,7 @@ The `skills/` folder defines specific actions that an AI system can execute with
 
 
 
-\#### Recommended contents
+#### Recommended contents
 
 
 
@@ -1122,7 +1122,7 @@ skills/
 
 
 
-\#### Use this folder when
+#### Use this folder when
 
 
 
@@ -1130,11 +1130,11 @@ Use `skills/` when the course has recurring AI-supported workflows.
 
 
 
-\#### Relationship with PEDAGOGY.md
+#### Relationship with PEDAGOGY.md
 
 
 
-\*\*PEDAGOGY.md\*\* defines the context.
+**PEDAGOGY.md** defines the context.
 
 
 
@@ -1142,29 +1142,29 @@ Use `skills/` when the course has recurring AI-supported workflows.
 
 
 
-\---
+---
 
 
 
-\## 6. What belongs in PEDAGOGY.md?
+## 6. What belongs in PEDAGOGY.md?
 
 
 
-Keep information in \*\*PEDAGOGY.md\*\* when it is:
+Keep information in **PEDAGOGY.md** when it is:
 
 
 
-\- central to the course identity;
+- central to the course identity;
 
-\- stable across most of the course;
+- stable across most of the course;
 
-\- necessary for understanding the pedagogical logic;
+- necessary for understanding the pedagogical logic;
 
-\- relevant to multiple activities or resources;
+- relevant to multiple activities or resources;
 
-\- needed by AI systems as core context;
+- needed by AI systems as core context;
 
-\- useful for alignment between outcomes, activities, assessment and feedback.
+- useful for alignment between outcomes, activities, assessment and feedback.
 
 
 
@@ -1172,21 +1172,21 @@ Examples:
 
 
 
-\- The course follows a case-based methodology.
+- The course follows a case-based methodology.
 
-\- Feedback should be formative, specific and improvement-oriented.
+- Feedback should be formative, specific and improvement-oriented.
 
-\- AI may be used for brainstorming and revision, but not to complete assessable work.
+- AI may be used for brainstorming and revision, but not to complete assessable work.
 
-\- Students are future teachers with limited prior knowledge of school organization.
-
-
-
-\---
+- Students are future teachers with limited prior knowledge of school organization.
 
 
 
-\## 7. What should move to complementary files?
+---
+
+
+
+## 7. What should move to complementary files?
 
 
 
@@ -1194,19 +1194,19 @@ Move information to complementary files when it is:
 
 
 
-\- too detailed;
+- too detailed;
 
-\- frequently updated;
+- frequently updated;
 
-\- task-specific;
+- task-specific;
 
-\- resource-heavy;
+- resource-heavy;
 
-\- only relevant to one activity;
+- only relevant to one activity;
 
-\- better represented as a table, rubric or bank;
+- better represented as a table, rubric or bank;
 
-\- likely to distract from the core pedagogical logic.
+- likely to distract from the core pedagogical logic.
 
 
 
@@ -1214,25 +1214,25 @@ Examples:
 
 
 
-\- A full 20-item rubric for Project 2.
+- A full 20-item rubric for Project 2.
 
-\- A complete list of weekly readings.
+- A complete list of weekly readings.
 
-\- A bank of 15 case studies.
+- A bank of 15 case studies.
 
-\- Detailed prompts for student use.
+- Detailed prompts for student use.
 
-\- A full AI agent system prompt.
+- A full AI agent system prompt.
 
-\- Step-by-step instructions for a single practical task.
-
-
-
-\---
+- Step-by-step instructions for a single practical task.
 
 
 
-\## 8. Decision rule
+---
+
+
+
+## 8. Decision rule
 
 
 
@@ -1240,7 +1240,7 @@ Use this decision rule:
 
 
 
-> If the information defines the course logic, keep it in \*\*PEDAGOGY.md\*\*.  
+> If the information defines the course logic, keep it in **PEDAGOGY.md**.
 
 > If the information operationalizes one part of the course in detail, move it to a complementary file.
 
@@ -1280,11 +1280,11 @@ Examples:
 
 
 
-\---
+---
 
 
 
-\## 9. Minimal course implementation
+## 9. Minimal course implementation
 
 
 
@@ -1308,23 +1308,23 @@ This is enough when:
 
 
 
-\- the course is simple;
+- the course is simple;
 
-\- there are few activities;
+- there are few activities;
 
-\- assessment is straightforward;
+- assessment is straightforward;
 
-\- no AI agent is being configured;
+- no AI agent is being configured;
 
-\- the teacher wants an initial structured description.
-
-
-
-\---
+- the teacher wants an initial structured description.
 
 
 
-\## 10. Recommended course implementation
+---
+
+
+
+## 10. Recommended course implementation
 
 
 
@@ -1360,25 +1360,25 @@ This is suitable when:
 
 
 
-\- the course has several activities;
+- the course has several activities;
 
-\- assessment has multiple components;
+- assessment has multiple components;
 
-\- students use AI;
+- students use AI;
 
-\- feedback is important;
+- feedback is important;
 
-\- the course has many readings or resources;
+- the course has many readings or resources;
 
-\- the teaching team wants maintainable documentation.
-
-
-
-\---
+- the teaching team wants maintainable documentation.
 
 
 
-\## 11. Advanced course implementation
+---
+
+
+
+## 11. Advanced course implementation
 
 
 
@@ -1426,29 +1426,29 @@ This is suitable when:
 
 
 
-\- the course uses AI assistants;
+- the course uses AI assistants;
 
-\- there are multiple agents or workflows;
+- there are multiple agents or workflows;
 
-\- learning analytics are used;
+- learning analytics are used;
 
-\- case-based learning is central;
+- case-based learning is central;
 
-\- assessment is complex;
+- assessment is complex;
 
-\- there are several teachers;
+- there are several teachers;
 
-\- the course is reused across editions;
+- the course is reused across editions;
 
-\- documentation needs to be versioned.
-
-
-
-\---
+- documentation needs to be versioned.
 
 
 
-\## 12. Example: university course with AI assistant
+---
+
+
+
+## 12. Example: university course with AI assistant
 
 
 
@@ -1506,9 +1506,9 @@ ict-primary-education/
 
 └── prompts/
 
-&#x20;   ├── student-reflection-prompts.md
+    ├── student-reflection-prompts.md
 
-&#x20;   └── project-feedback-prompts.md
+    └── project-feedback-prompts.md
 
 ```
 
@@ -1518,31 +1518,31 @@ In this example:
 
 
 
-\- `PEDAGOGY.md` defines the overall pedagogical logic.
+- `PEDAGOGY.md` defines the overall pedagogical logic.
 
-\- `assessment.md` explains the grading system.
+- `assessment.md` explains the grading system.
 
-\- `activities.md` contains TP, PS and project instructions.
+- `activities.md` contains TP, PS and project instructions.
 
-\- `ai-policy.md` defines AI use in projects and assessment.
+- `ai-policy.md` defines AI use in projects and assessment.
 
-\- `feedback.md` defines formative feedback rules.
+- `feedback.md` defines formative feedback rules.
 
-\- `rubrics/` stores project rubrics.
+- `rubrics/` stores project rubrics.
 
-\- `resources/` stores frameworks and readings.
+- `resources/` stores frameworks and readings.
 
-\- `agents/` defines course-specific AI assistants.
+- `agents/` defines course-specific AI assistants.
 
-\- `prompts/` stores reusable prompts.
-
-
-
-\---
+- `prompts/` stores reusable prompts.
 
 
 
-\## 13. Example: school organization course with cases
+---
+
+
+
+## 13. Example: school organization course with cases
 
 
 
@@ -1590,11 +1590,11 @@ school-organization/
 
 └── agents/
 
-&#x20;   ├── conceptual-tutor-agent.md
+    ├── conceptual-tutor-agent.md
 
-&#x20;   ├── case-analysis-agent.md
+    ├── case-analysis-agent.md
 
-&#x20;   └── feedback-agent.md
+    └── feedback-agent.md
 
 ```
 
@@ -1604,25 +1604,25 @@ In this example:
 
 
 
-\- `PEDAGOGY.md` defines the course logic.
+- `PEDAGOGY.md` defines the course logic.
 
-\- `cases.md` stores fictional school cases.
+- `cases.md` stores fictional school cases.
 
-\- `activities.md` stores theoretical-practical exercises and practical sessions.
+- `activities.md` stores theoretical-practical exercises and practical sessions.
 
-\- `content.md` organizes theory and institutional documents.
+- `content.md` organizes theory and institutional documents.
 
-\- `feedback.md` guides teacher and AI-assisted feedback.
+- `feedback.md` guides teacher and AI-assisted feedback.
 
-\- `agents/` defines assistants for conceptual tutoring, case analysis and formative feedback.
-
-
-
-\---
+- `agents/` defines assistants for conceptual tutoring, case analysis and formative feedback.
 
 
 
-\## 14. Versioning across files
+---
+
+
+
+## 14. Versioning across files
 
 
 
@@ -1634,9 +1634,9 @@ Recommended rule:
 
 
 
-> \*\*PEDAGOGY.md\*\* defines the course-level version.  
+> **PEDAGOGY.md** defines the course-level version.
 
-> Complementary files may have their own local version numbers, but they should state which version of \*\*PEDAGOGY.md\*\* they are aligned with.
+> Complementary files may have their own local version numbers, but they should state which version of **PEDAGOGY.md** they are aligned with.
 
 
 
@@ -1646,15 +1646,15 @@ Example:
 
 ```markdown
 
-\# PEDAGOGY.md
+# PEDAGOGY.md
 
 
 
-\- Version: 1.0
+- Version: 1.0
 
-\- Course edition: 2026/2027
+- Course edition: 2026/2027
 
-\- Last updated: 2026-06-26
+- Last updated: 2026-06-26
 
 ```
 
@@ -1662,15 +1662,15 @@ Example:
 
 ```markdown
 
-\# assessment.md
+# assessment.md
 
 
 
-\- Version: 1.0
+- Version: 1.0
 
-\- Aligned with: PEDAGOGY.md v1.0
+- Aligned with: PEDAGOGY.md v1.0
 
-\- Last updated: 2026-06-26
+- Last updated: 2026-06-26
 
 ```
 
@@ -1680,11 +1680,11 @@ This makes it easier to know whether a rubric, activity file or AI agent specifi
 
 
 
-\---
+---
 
 
 
-\## 15. AI use across the file ecosystem
+## 15. AI use across the file ecosystem
 
 
 
@@ -1692,27 +1692,27 @@ When an AI system uses the file ecosystem, it should follow this order:
 
 
 
-1\. Read \*\*PEDAGOGY.md\*\* first.
+1. Read **PEDAGOGY.md** first.
 
-2\. Identify the relevant task.
+2. Identify the relevant task.
 
-3\. Check whether \*\*PEDAGOGY.md\*\* points to a complementary file.
+3. Check whether **PEDAGOGY.md** points to a complementary file.
 
-4\. Use the complementary file only for the specific detail needed.
+4. Use the complementary file only for the specific detail needed.
 
-5\. Apply the following authority rule:
+5. Apply the following authority rule:
 
-&#x20;  - \*\*PEDAGOGY.md\*\* is authoritative for the overall pedagogical logic.
+   - **PEDAGOGY.md** is authoritative for the overall pedagogical logic.
 
-&#x20;  - Complementary files are authoritative for detailed operational information within their domain when they are current and aligned with \*\*PEDAGOGY.md\*\*.
+   - Complementary files are authoritative for detailed operational information within their domain when they are current and aligned with **PEDAGOGY.md**.
 
-6\. If a contradiction appears, check version dates and file responsibilities.
+6. If a contradiction appears, check version dates and file responsibilities.
 
-7\. If the contradiction affects the core course logic, update \*\*PEDAGOGY.md\*\*.
+7. If the contradiction affects the core course logic, update **PEDAGOGY.md**.
 
-8\. If the contradiction affects only operational detail, update the relevant complementary file.
+8. If the contradiction affects only operational detail, update the relevant complementary file.
 
-9\. If contradictions remain, ask the teacher or maintainer for clarification.
+9. If contradictions remain, ask the teacher or maintainer for clarification.
 
 
 
@@ -1728,23 +1728,23 @@ The AI should read:
 
 
 
-1\. `PEDAGOGY.md`
+1. `PEDAGOGY.md`
 
-2\. `feedback.md`
+2. `feedback.md`
 
-3\. `assessment.md`
+3. `assessment.md`
 
-4\. `rubrics/project-2-rubric.md`
+4. `rubrics/project-2-rubric.md`
 
-5\. `activities/project-2-instructions.md`, if available
-
-
-
-\---
+5. `activities/project-2-instructions.md`, if available
 
 
 
-\## 16. Handling contradictions
+---
+
+
+
+## 16. Handling contradictions
 
 
 
@@ -1756,45 +1756,45 @@ Examples:
 
 
 
-\- `PEDAGOGY.md` says AI is prohibited in assessment, but `ai-policy.md` allows AI-assisted drafting.
+- `PEDAGOGY.md` says AI is prohibited in assessment, but `ai-policy.md` allows AI-assisted drafting.
 
-\- `assessment.md` gives one weighting, while `PEDAGOGY.md` gives another.
+- `assessment.md` gives one weighting, while `PEDAGOGY.md` gives another.
 
-\- `activities.md` lists a task that is not reflected in assessment.
+- `activities.md` lists a task that is not reflected in assessment.
 
-\- A rubric evaluates a criterion not defined in the course quality criteria.
-
-
-
-\### Recommended resolution process
+- A rubric evaluates a criterion not defined in the course quality criteria.
 
 
 
-1\. Identify the contradiction.
-
-2\. Check version dates.
-
-3\. Check which file is intended to be authoritative for the affected domain.
-
-4\. Distinguish whether the contradiction affects:
-
-&#x20;  - the core pedagogical logic; or
-
-&#x20;  - the operational detail of one domain.
-
-5\. Prefer \*\*PEDAGOGY.md\*\* for core pedagogical logic.
-
-6\. Prefer the current domain-specific file for operational details, provided that it does not contradict the core logic.
-
-7\. Update \*\*PEDAGOGY.md\*\* if the contradiction affects the general course logic.
-
-8\. Update the complementary file if the contradiction affects only detailed implementation.
-
-9\. Document significant changes in the changelog.
+### Recommended resolution process
 
 
 
-\### Recommended authority hierarchy
+1. Identify the contradiction.
+
+2. Check version dates.
+
+3. Check which file is intended to be authoritative for the affected domain.
+
+4. Distinguish whether the contradiction affects:
+
+   - the core pedagogical logic; or
+
+   - the operational detail of one domain.
+
+5. Prefer **PEDAGOGY.md** for core pedagogical logic.
+
+6. Prefer the current domain-specific file for operational details, provided that it does not contradict the core logic.
+
+7. Update **PEDAGOGY.md** if the contradiction affects the general course logic.
+
+8. Update the complementary file if the contradiction affects only detailed implementation.
+
+9. Document significant changes in the changelog.
+
+
+
+### Recommended authority hierarchy
 
 
 
@@ -1824,11 +1824,11 @@ Examples:
 
 
 
-\---
+---
 
 
 
-\## 17. Maintenance checklist
+## 17. Maintenance checklist
 
 
 
@@ -1836,45 +1836,45 @@ Use this checklist when maintaining a course file ecosystem.
 
 
 
-\- \[ ] `PEDAGOGY.md` is current.
+- [ ] `PEDAGOGY.md` is current.
 
-\- \[ ] Complementary files reference the current version of `PEDAGOGY.md`.
+- [ ] Complementary files reference the current version of `PEDAGOGY.md`.
 
-\- \[ ] Assessment information is consistent across files.
+- [ ] Assessment information is consistent across files.
 
-\- \[ ] Activity instructions match the methodology.
+- [ ] Activity instructions match the methodology.
 
-\- \[ ] Rubrics match the quality criteria.
+- [ ] Rubrics match the quality criteria.
 
-\- \[ ] AI policy is consistent with assessment rules.
+- [ ] AI policy is consistent with assessment rules.
 
-\- \[ ] Feedback templates match the feedback model.
+- [ ] Feedback templates match the feedback model.
 
-\- \[ ] Cases match the intended learning outcomes.
+- [ ] Cases match the intended learning outcomes.
 
-\- \[ ] Agent specifications follow AI Agent Behaviour.
+- [ ] Agent specifications follow AI Agent Behaviour.
 
-\- \[ ] Prompts follow the AI Use Policy.
+- [ ] Prompts follow the AI Use Policy.
 
-\- \[ ] Analytics rules respect privacy and human oversight.
+- [ ] Analytics rules respect privacy and human oversight.
 
-\- \[ ] Ethical constraints are visible and updated.
+- [ ] Ethical constraints are visible and updated.
 
-\- \[ ] Known limitations are documented.
+- [ ] Known limitations are documented.
 
-\- \[ ] Changes are recorded in the changelog.
-
-
-
-\---
+- [ ] Changes are recorded in the changelog.
 
 
 
-\## 18. Summary
+---
 
 
 
-The \*\*PEDAGOGY.md\*\* ecosystem is modular.
+## 18. Summary
+
+
+
+The **PEDAGOGY.md** ecosystem is modular.
 
 
 
@@ -1882,7 +1882,7 @@ The core principle is:
 
 
 
-> Keep the pedagogical logic in \*\*PEDAGOGY.md\*\*. Move detailed operational content to complementary files.
+> Keep the pedagogical logic in **PEDAGOGY.md**. Move detailed operational content to complementary files.
 
 
 

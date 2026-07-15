@@ -1,12 +1,12 @@
-\# Contributing to PEDAGOGY.md
+# Contributing to PEDAGOGY.md
 
 
 
-Thank you for your interest in contributing to \*\*PEDAGOGY.md\*\*.
+Thank you for your interest in contributing to **PEDAGOGY.md**.
 
 
 
-\*\*PEDAGOGY.md\*\* is an open documentation standard for describing the pedagogical, methodological, assessment, organizational, ethical and AI-related design of a course, subject, module or learning experience.
+**PEDAGOGY.md** is an open documentation standard for describing the pedagogical, methodological, assessment, organizational, ethical and AI-related design of a course, subject, module or learning experience.
 
 
 
@@ -14,11 +14,11 @@ The goal of this project is to make pedagogical intent explicit, structured, reu
 
 
 
-\---
+---
 
 
 
-\## 1. What kinds of contributions are welcome?
+## 1. What kinds of contributions are welcome?
 
 
 
@@ -26,41 +26,41 @@ Contributions may include:
 
 
 
-\- improving the core \*\*PEDAGOGY.md\*\* specification;
+- improving the core **PEDAGOGY.md** specification;
 
-\- improving `PEDAGOGY.template.md`;
+- improving `PEDAGOGY.template.md`;
 
-\- adding examples from different educational levels;
+- adding examples from different educational levels;
 
-\- clarifying existing sections;
+- clarifying existing sections;
 
-\- proposing new fields;
+- proposing new fields;
 
-\- improving documentation;
+- improving documentation;
 
-\- translating documents;
+- translating documents;
 
-\- identifying ambiguities;
+- identifying ambiguities;
 
-\- suggesting links with learning design, instructional design, assessment or AI-in-education frameworks;
+- suggesting links with learning design, instructional design, assessment or AI-in-education frameworks;
 
-\- proposing complementary files;
+- proposing complementary files;
 
-\- improving AI usage guidance;
+- improving AI usage guidance;
 
-\- improving ethical, accessibility or privacy guidance;
+- improving ethical, accessibility or privacy guidance;
 
-\- reporting inconsistencies between files;
+- reporting inconsistencies between files;
 
-\- suggesting better terminology.
-
-
-
-\---
+- suggesting better terminology.
 
 
 
-\## 2. Contribution principles
+---
+
+
+
+## 2. Contribution principles
 
 
 
@@ -68,7 +68,7 @@ All contributions should preserve the following principles.
 
 
 
-\### 2.1 Pedagogical clarity
+### 2.1 Pedagogical clarity
 
 
 
@@ -80,11 +80,11 @@ Avoid adding terminology, fields or structures that make the standard unnecessar
 
 
 
-\### 2.2 Teacher usability
+### 2.2 Teacher usability
 
 
 
-\*\*PEDAGOGY.md\*\* should remain usable by teachers without advanced technical knowledge.
+**PEDAGOGY.md** should remain usable by teachers without advanced technical knowledge.
 
 
 
@@ -92,7 +92,7 @@ A contribution should not make the standard depend on programming skills, specia
 
 
 
-\### 2.3 Instructional alignment
+### 2.3 Instructional alignment
 
 
 
@@ -100,19 +100,19 @@ Contributions should help align:
 
 
 
-\- learning outcomes;
+- learning outcomes;
 
-\- activities;
+- activities;
 
-\- assessment;
+- assessment;
 
-\- feedback;
+- feedback;
 
-\- quality criteria;
+- quality criteria;
 
-\- AI use;
+- AI use;
 
-\- learner support.
+- learner support.
 
 
 
@@ -120,11 +120,11 @@ Avoid contributions that fragment the relationship between these elements.
 
 
 
-\### 2.4 Modularity
+### 2.4 Modularity
 
 
 
-Not everything belongs in \*\*PEDAGOGY.md\*\*.
+Not everything belongs in **PEDAGOGY.md**.
 
 
 
@@ -132,33 +132,33 @@ Before adding a new field or section, consider whether it should belong to:
 
 
 
-\- `PEDAGOGY.md`;
+- `PEDAGOGY.md`;
 
-\- `assessment.md`;
+- `assessment.md`;
 
-\- `activities.md`;
+- `activities.md`;
 
-\- `content.md`;
+- `content.md`;
 
-\- `ai-policy.md`;
+- `ai-policy.md`;
 
-\- `feedback.md`;
+- `feedback.md`;
 
-\- `cases.md`;
+- `cases.md`;
 
-\- `analytics.md`;
+- `analytics.md`;
 
-\- `ethics.md`;
+- `ethics.md`;
 
-\- `rubrics/`;
+- `rubrics/`;
 
-\- `resources/`;
+- `resources/`;
 
-\- `prompts/`;
+- `prompts/`;
 
-\- `agents/`;
+- `agents/`;
 
-\- `skills/`.
+- `skills/`.
 
 
 
@@ -166,13 +166,13 @@ Use this rule:
 
 
 
-> If the information defines the core pedagogical logic, it may belong in \*\*PEDAGOGY.md\*\*.  
+> If the information defines the core pedagogical logic, it may belong in **PEDAGOGY.md**.
 
 > If it operationalizes a specific part of the course, it probably belongs in a complementary file.
 
 
 
-\### 2.5 AI-readability
+### 2.5 AI-readability
 
 
 
@@ -188,7 +188,7 @@ Avoid vague or purely decorative sections that do not help a teacher or AI syste
 
 
 
-\### 2.6 Ethical responsibility
+### 2.6 Ethical responsibility
 
 
 
@@ -196,23 +196,23 @@ Contributions should respect:
 
 
 
-\- privacy;
+- privacy;
 
-\- transparency;
+- transparency;
 
-\- academic integrity;
+- academic integrity;
 
-\- inclusion;
+- inclusion;
 
-\- accessibility;
+- accessibility;
 
-\- fairness;
+- fairness;
 
-\- human oversight;
+- human oversight;
 
-\- learner agency;
+- learner agency;
 
-\- responsible AI use.
+- responsible AI use.
 
 
 
@@ -220,7 +220,7 @@ Do not propose structures that promote automated high-stakes decisions without h
 
 
 
-\### 2.7 Institutional adaptability
+### 2.7 Institutional adaptability
 
 
 
@@ -232,11 +232,11 @@ Avoid assuming one specific country, institution, platform, assessment model, LM
 
 
 
-\---
+---
 
 
 
-\## 3. Before proposing a change
+## 3. Before proposing a change
 
 
 
@@ -244,33 +244,33 @@ Before opening an issue or pull request, ask:
 
 
 
-1\. What pedagogical problem does this change solve?
+1. What pedagogical problem does this change solve?
 
-2\. Is the change useful for teachers?
+2. Is the change useful for teachers?
 
-3\. Is the change understandable without technical expertise?
+3. Is the change understandable without technical expertise?
 
-4\. Does it improve alignment, clarity or traceability?
+4. Does it improve alignment, clarity or traceability?
 
-5\. Does it belong in the core \*\*PEDAGOGY.md\*\* file?
+5. Does it belong in the core **PEDAGOGY.md** file?
 
-6\. Would it be better placed in a complementary file?
+6. Would it be better placed in a complementary file?
 
-7\. Does it create unnecessary complexity?
+7. Does it create unnecessary complexity?
 
-8\. Does it respect ethical and privacy boundaries?
+8. Does it respect ethical and privacy boundaries?
 
-9\. Can it be illustrated with an example?
+9. Can it be illustrated with an example?
 
-10\. Is it compatible with the current structure of the standard?
-
-
-
-\---
+10. Is it compatible with the current structure of the standard?
 
 
 
-\## 4. How to propose a new field
+---
+
+
+
+## 4. How to propose a new field
 
 
 
@@ -278,7 +278,7 @@ If you want to propose a new field, include the following information:
 
 
 
-\### Proposed field
+### Proposed field
 
 
 
@@ -286,7 +286,7 @@ Name of the proposed field.
 
 
 
-\### Purpose
+### Purpose
 
 
 
@@ -294,7 +294,7 @@ What pedagogical function does this field serve?
 
 
 
-\### Location
+### Location
 
 
 
@@ -302,41 +302,41 @@ Where should it be placed?
 
 
 
-\- \[ ] `PEDAGOGY.md`
+- [ ] `PEDAGOGY.md`
 
-\- \[ ] `assessment.md`
+- [ ] `assessment.md`
 
-\- \[ ] `activities.md`
+- [ ] `activities.md`
 
-\- \[ ] `content.md`
+- [ ] `content.md`
 
-\- \[ ] `ai-policy.md`
+- [ ] `ai-policy.md`
 
-\- \[ ] `feedback.md`
+- [ ] `feedback.md`
 
-\- \[ ] `cases.md`
+- [ ] `cases.md`
 
-\- \[ ] `analytics.md`
+- [ ] `analytics.md`
 
-\- \[ ] `ethics.md`
+- [ ] `ethics.md`
 
-\- \[ ] Other
-
-
-
-\### Completion level
+- [ ] Other
 
 
 
-\- \[ ] Required
-
-\- \[ ] Recommended
-
-\- \[ ] Advanced
+### Completion level
 
 
 
-\### Pedagogical rationale
+- [ ] Required
+
+- [ ] Recommended
+
+- [ ] Advanced
+
+
+
+### Pedagogical rationale
 
 
 
@@ -344,7 +344,7 @@ Why is this field needed?
 
 
 
-\### AI relevance
+### AI relevance
 
 
 
@@ -352,7 +352,7 @@ How would an AI system use this field?
 
 
 
-\### Example content
+### Example content
 
 
 
@@ -360,7 +360,7 @@ Provide an example of how a teacher would complete this field.
 
 
 
-\### Risks or limitations
+### Risks or limitations
 
 
 
@@ -368,11 +368,11 @@ Could this field create confusion, redundancy or excessive complexity?
 
 
 
-\---
+---
 
 
 
-\## 5. How to propose a new section
+## 5. How to propose a new section
 
 
 
@@ -380,21 +380,21 @@ If you want to propose a new section, explain:
 
 
 
-\- the purpose of the section;
+- the purpose of the section;
 
-\- why existing sections are insufficient;
+- why existing sections are insufficient;
 
-\- what fields it would contain;
+- what fields it would contain;
 
-\- whether it is required, recommended or advanced;
+- whether it is required, recommended or advanced;
 
-\- how it supports teachers;
+- how it supports teachers;
 
-\- how it supports AI systems;
+- how it supports AI systems;
 
-\- how it relates to existing files;
+- how it relates to existing files;
 
-\- whether it could be a complementary file instead of a core section.
+- whether it could be a complementary file instead of a core section.
 
 
 
@@ -402,11 +402,11 @@ A new section should not be added only because the topic is interesting. It shou
 
 
 
-\---
+---
 
 
 
-\## 6. How to propose a complementary file
+## 6. How to propose a complementary file
 
 
 
@@ -414,7 +414,7 @@ If you want to propose a new complementary file, include:
 
 
 
-\### Proposed file
+### Proposed file
 
 
 
@@ -422,7 +422,7 @@ Name of the file.
 
 
 
-\### Function
+### Function
 
 
 
@@ -430,15 +430,15 @@ What does this file do?
 
 
 
-\### Relationship with PEDAGOGY.md
+### Relationship with PEDAGOGY.md
 
 
 
-Which section of \*\*PEDAGOGY.md\*\* does it expand?
+Which section of **PEDAGOGY.md** does it expand?
 
 
 
-\### Recommended contents
+### Recommended contents
 
 
 
@@ -446,7 +446,7 @@ List the main sections or fields.
 
 
 
-\### Example use case
+### Example use case
 
 
 
@@ -454,7 +454,7 @@ Describe when a teacher would use this file.
 
 
 
-\### AI relevance
+### AI relevance
 
 
 
@@ -466,33 +466,33 @@ Examples of possible complementary files:
 
 
 
-\- `assessment.md`;
+- `assessment.md`;
 
-\- `activities.md`;
+- `activities.md`;
 
-\- `content.md`;
+- `content.md`;
 
-\- `ai-policy.md`;
+- `ai-policy.md`;
 
-\- `feedback.md`;
+- `feedback.md`;
 
-\- `cases.md`;
+- `cases.md`;
 
-\- `analytics.md`;
+- `analytics.md`;
 
-\- `ethics.md`;
+- `ethics.md`;
 
-\- `teacher-guide.md`;
+- `teacher-guide.md`;
 
-\- `developer-guide.md`.
-
-
-
-\---
+- `developer-guide.md`.
 
 
 
-\## 7. How to contribute an example
+---
+
+
+
+## 7. How to contribute an example
 
 
 
@@ -500,7 +500,7 @@ Examples are especially valuable.
 
 
 
-An example should show how \*\*PEDAGOGY.md\*\* can be completed in a specific educational context.
+An example should show how **PEDAGOGY.md** can be completed in a specific educational context.
 
 
 
@@ -508,29 +508,29 @@ Examples may represent:
 
 
 
-\- primary education;
+- primary education;
 
-\- secondary education;
+- secondary education;
 
-\- vocational education and training;
+- vocational education and training;
 
-\- higher education;
+- higher education;
 
-\- teacher education;
+- teacher education;
 
-\- online learning;
+- online learning;
 
-\- blended learning;
+- blended learning;
 
-\- microcredentials;
+- microcredentials;
 
-\- professional training;
+- professional training;
 
-\- AI-supported courses.
+- AI-supported courses.
 
 
 
-\### Example requirements
+### Example requirements
 
 
 
@@ -538,25 +538,25 @@ A good example should:
 
 
 
-\- be realistic;
+- be realistic;
 
-\- be complete enough to be useful;
+- be complete enough to be useful;
 
-\- avoid unnecessary personal data;
+- avoid unnecessary personal data;
 
-\- avoid identifying real students;
+- avoid identifying real students;
 
-\- avoid confidential institutional information;
+- avoid confidential institutional information;
 
-\- show alignment between outcomes, methodology, assessment and feedback;
+- show alignment between outcomes, methodology, assessment and feedback;
 
-\- include an AI use policy if AI is relevant;
+- include an AI use policy if AI is relevant;
 
-\- include versioning information.
+- include versioning information.
 
 
 
-\### Recommended file location
+### Recommended file location
 
 
 
@@ -588,11 +588,11 @@ examples/teacher-training.md
 
 
 
-\---
+---
 
 
 
-\## 8. How to contribute documentation
+## 8. How to contribute documentation
 
 
 
@@ -600,23 +600,23 @@ Documentation contributions may include:
 
 
 
-\- clearer explanations;
+- clearer explanations;
 
-\- better examples;
+- better examples;
 
-\- improved tables;
+- improved tables;
 
-\- FAQ entries;
+- FAQ entries;
 
-\- teacher guidance;
+- teacher guidance;
 
-\- AI usage guidance;
+- AI usage guidance;
 
-\- file ecosystem explanations;
+- file ecosystem explanations;
 
-\- research background;
+- research background;
 
-\- translations.
+- translations.
 
 
 
@@ -628,11 +628,11 @@ Avoid turning documentation into a theoretical essay unless the file is explicit
 
 
 
-\---
+---
 
 
 
-\## 9. Style guidelines
+## 9. Style guidelines
 
 
 
@@ -644,23 +644,23 @@ Recommended style:
 
 
 
-\- use descriptive headings;
+- use descriptive headings;
 
-\- use short paragraphs;
+- use short paragraphs;
 
-\- use lists for fields;
+- use lists for fields;
 
-\- use tables when comparing files or levels;
+- use tables when comparing files or levels;
 
-\- use examples where useful;
+- use examples where useful;
 
-\- avoid unnecessary jargon;
+- avoid unnecessary jargon;
 
-\- define technical terms;
+- define technical terms;
 
-\- write for teachers first;
+- write for teachers first;
 
-\- keep AI-related guidance explicit and operational.
+- keep AI-related guidance explicit and operational.
 
 
 
@@ -668,25 +668,25 @@ Avoid:
 
 
 
-\- overly abstract language;
+- overly abstract language;
 
-\- unexplained acronyms;
+- unexplained acronyms;
 
-\- platform-specific assumptions;
+- platform-specific assumptions;
 
-\- excessive technical metadata;
+- excessive technical metadata;
 
-\- duplicated content;
+- duplicated content;
 
-\- very long sections without structure.
-
-
-
-\---
+- very long sections without structure.
 
 
 
-\## 10. Language
+---
+
+
+
+## 10. Language
 
 
 
@@ -730,11 +730,11 @@ Translations should preserve the meaning of the standard, not only translate the
 
 
 
-\---
+---
 
 
 
-\## 11. Ethical and privacy requirements
+## 11. Ethical and privacy requirements
 
 
 
@@ -742,19 +742,19 @@ Do not include:
 
 
 
-\- identifiable student data;
+- identifiable student data;
 
-\- sensitive personal information;
+- sensitive personal information;
 
-\- confidential school data;
+- confidential school data;
 
-\- private assessment records;
+- private assessment records;
 
-\- unpublished institutional documents without permission;
+- unpublished institutional documents without permission;
 
-\- AI interaction logs containing personal data;
+- AI interaction logs containing personal data;
 
-\- examples that expose real learners, families or teachers.
+- examples that expose real learners, families or teachers.
 
 
 
@@ -762,11 +762,11 @@ When using examples, anonymize or fictionalize details.
 
 
 
-\---
+---
 
 
 
-\## 12. Pull request process
+## 12. Pull request process
 
 
 
@@ -774,29 +774,29 @@ When submitting a pull request:
 
 
 
-1\. Describe the change clearly.
+1. Describe the change clearly.
 
-2\. Explain the pedagogical problem it solves.
+2. Explain the pedagogical problem it solves.
 
-3\. Identify the affected file or section.
+3. Identify the affected file or section.
 
-4\. Explain whether the change affects the core standard or a complementary file.
+4. Explain whether the change affects the core standard or a complementary file.
 
-5\. Include examples if the change introduces a new field or section.
+5. Include examples if the change introduces a new field or section.
 
-6\. Check for consistency with existing documentation.
+6. Check for consistency with existing documentation.
 
-7\. Update `CHANGELOG.md` if the change is significant.
+7. Update `CHANGELOG.md` if the change is significant.
 
-8\. Update `ROADMAP.md` if the change affects planned development.
-
-
-
-\---
+8. Update `ROADMAP.md` if the change affects planned development.
 
 
 
-\## 13. Pull request checklist
+---
+
+
+
+## 13. Pull request checklist
 
 
 
@@ -804,33 +804,33 @@ Before submitting a pull request, check:
 
 
 
-\- The change is understandable for non-technical teachers.
+- The change is understandable for non-technical teachers.
 
-\- The change improves pedagogical clarity.
+- The change improves pedagogical clarity.
 
-\- The change supports instructional alignment.
+- The change supports instructional alignment.
 
-\- The change preserves modularity.
+- The change preserves modularity.
 
-\- The change is relevant for AI-supported educational use.
+- The change is relevant for AI-supported educational use.
 
-\- The change respects privacy and ethical boundaries.
+- The change respects privacy and ethical boundaries.
 
-\- The change does not duplicate information already present elsewhere.
+- The change does not duplicate information already present elsewhere.
 
-\- The change includes an example when needed.
+- The change includes an example when needed.
 
-\- The change is consistent with the current version of the standard.
+- The change is consistent with the current version of the standard.
 
-\- The change does not make the core file unnecessarily complex.
-
-
-
-\---
+- The change does not make the core file unnecessarily complex.
 
 
 
-\## 14. Issue types
+---
+
+
+
+## 14. Issue types
 
 
 
@@ -838,7 +838,7 @@ Use issues to report problems or propose changes.
 
 
 
-\### 14.1 Ambiguity or inconsistency
+### 14.1 Ambiguity or inconsistency
 
 
 
@@ -850,17 +850,17 @@ Include:
 
 
 
-\- affected file;
+- affected file;
 
-\- affected section;
+- affected section;
 
-\- description of the ambiguity;
+- description of the ambiguity;
 
-\- proposed clarification, if available.
+- proposed clarification, if available.
 
 
 
-\### 14.2 New field proposal
+### 14.2 New field proposal
 
 
 
@@ -872,21 +872,21 @@ Include:
 
 
 
-\- field name;
+- field name;
 
-\- pedagogical purpose;
+- pedagogical purpose;
 
-\- proposed location;
+- proposed location;
 
-\- completion level;
+- completion level;
 
-\- AI relevance;
+- AI relevance;
 
-\- example content.
+- example content.
 
 
 
-\### 14.3 New example
+### 14.3 New example
 
 
 
@@ -898,19 +898,19 @@ Include:
 
 
 
-\- educational level;
+- educational level;
 
-\- course type;
+- course type;
 
-\- language;
+- language;
 
-\- whether the example is real, anonymized or fictional;
+- whether the example is real, anonymized or fictional;
 
-\- what the example demonstrates.
+- what the example demonstrates.
 
 
 
-\### 14.4 Documentation improvement
+### 14.4 Documentation improvement
 
 
 
@@ -922,15 +922,15 @@ Include:
 
 
 
-\- affected document;
+- affected document;
 
-\- current problem;
+- current problem;
 
-\- proposed improvement.
+- proposed improvement.
 
 
 
-\### 14.5 Ethical or AI policy concern
+### 14.5 Ethical or AI policy concern
 
 
 
@@ -942,19 +942,19 @@ Include:
 
 
 
-\- risk description;
+- risk description;
 
-\- affected section;
+- affected section;
 
-\- proposed mitigation.
-
-
-
-\---
+- proposed mitigation.
 
 
 
-\## 15. Versioning
+---
+
+
+
+## 15. Versioning
 
 
 
@@ -980,7 +980,7 @@ Recommended version logic:
 
 
 
-Changes to the core structure of \*\*PEDAGOGY.md\*\* should be documented carefully.
+Changes to the core structure of **PEDAGOGY.md** should be documented carefully.
 
 
 
@@ -988,23 +988,23 @@ Examples of major changes:
 
 
 
-\- adding or removing a core section;
+- adding or removing a core section;
 
-\- redefining required fields;
+- redefining required fields;
 
-\- changing the completion levels;
+- changing the completion levels;
 
-\- changing the AI interpretation rules;
+- changing the AI interpretation rules;
 
-\- changing the modular file ecosystem.
-
-
-
-\---
+- changing the modular file ecosystem.
 
 
 
-\## 16. Decision criteria for maintainers
+---
+
+
+
+## 16. Decision criteria for maintainers
 
 
 
@@ -1032,31 +1032,31 @@ Maintainers should evaluate contributions according to:
 
 
 
-\---
+---
 
 
 
-\## 17. Citation
+## 17. Citation
 
 
 
-If you use or adapt \*\*PEDAGOGY.md\*\*, please cite the project as:
+If you use or adapt **PEDAGOGY.md**, please cite the project as:
 
 
 
-> Arce, A., Portillo, J. and Tejada, E. (2026). \*PEDAGOGY.md: An open documentation standard for pedagogical design and AI-supported education\*. GitHub repository.
+> Arce, A., Portillo, J. and Tejada, E. (2026). *PEDAGOGY.md: An open documentation standard for pedagogical design and AI-supported education*. GitHub repository.
 
 
 
-\---
+---
 
 
 
-\## 18. Summary
+## 18. Summary
 
 
 
-Good contributions to \*\*PEDAGOGY.md\*\* should make pedagogical intent more explicit, structured, reusable and actionable.
+Good contributions to **PEDAGOGY.md** should make pedagogical intent more explicit, structured, reusable and actionable.
 
 
 
@@ -1064,15 +1064,15 @@ The project should remain:
 
 
 
-\- clear for teachers;
+- clear for teachers;
 
-\- rigorous in pedagogical terms;
+- rigorous in pedagogical terms;
 
-\- modular in structure;
+- modular in structure;
 
-\- useful for AI-supported education;
+- useful for AI-supported education;
 
-\- ethically responsible;
+- ethically responsible;
 
-\- adaptable across institutions and educational levels.
+- adaptable across institutions and educational levels.
 

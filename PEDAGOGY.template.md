@@ -1,26 +1,26 @@
-\# PEDAGOGY.template.md
+# PEDAGOGY.template.md
 
 
 
-\*\*Version:\*\*  
+**Version:**
 
-\*\*Last updated:\*\*  
+**Last updated:**
 
-\*\*Course / subject:\*\*  
+**Course / subject:**
 
-\*\*Teacher / team:\*\*  
+**Teacher / team:**
 
-\*\*Institution:\*\*  
+**Institution:**
 
-\*\*Academic year / edition:\*\*  
-
-
-
-\---
+**Academic year / edition:**
 
 
 
-\## How to use this template
+---
+
+
+
+## How to use this template
 
 
 
@@ -36,11 +36,11 @@ This file can be completed at three levels:
 
 
 
-\- \*\*Minimum level:\*\* complete the essential sections needed to describe the course.
+- **Minimum level:** complete the essential sections needed to describe the course.
 
-\- \*\*Recommended level:\*\* add enough detail to guide the creation of activities, resources, assessment and feedback.
+- **Recommended level:** add enough detail to guide the creation of activities, resources, assessment and feedback.
 
-\- \*\*Advanced level:\*\* complete the full structure to support AI assistants, educational agents, analytics and modular documentation.
+- **Advanced level:** complete the full structure to support AI assistants, educational agents, analytics and modular documentation.
 
 
 
@@ -48,37 +48,37 @@ Recommended completion order:
 
 
 
-1\. Course Identity
+1. Course Identity
 
-2\. Educational Context
+2. Educational Context
 
-3\. Learner Profile
+3. Learner Profile
 
-4\. Learning Outcomes and Competences
+4. Learning Outcomes and Competences
 
-5\. Pedagogical Principles
+5. Pedagogical Principles
 
-6\. Methodological Approach
+6. Methodological Approach
 
-7\. Assessment Design
+7. Assessment Design
 
-8\. Feedback Model
+8. Feedback Model
 
-9\. AI Use Policy
+9. AI Use Policy
 
-10\. Versioning and Maintenance
-
-
-
-\---
+10. Versioning and Maintenance
 
 
 
-\## 1. Course Identity
+---
 
 
 
-\### Purpose
+## 1. Course Identity
+
+
+
+### Purpose
 
 
 
@@ -86,47 +86,47 @@ Identify the course and define its basic educational scope.
 
 
 
-\### Fields
+### Fields
 
 
 
-\- Course name:
+- Course name:
 
-\- Course code:
+- Course code:
 
-\- Educational level:
+- Educational level:
 
-\- Programme / degree:
+- Programme / degree:
 
-\- Institution:
+- Institution:
 
-\- Faculty / department:
+- Faculty / department:
 
-\- Teacher(s):
+- Teacher(s):
 
-\- Language(s):
+- Language(s):
 
-\- Duration:
+- Duration:
 
-\- Credits / workload:
+- Credits / workload:
 
-\- Modality:
+- Modality:
 
-\- Academic year / edition:
+- Academic year / edition:
 
-\- Short description:
-
-
-
-\---
+- Short description:
 
 
 
-\## 2. Educational Context
+---
 
 
 
-\### Purpose
+## 2. Educational Context
+
+
+
+### Purpose
 
 
 
@@ -134,41 +134,41 @@ Describe the institutional, curricular and organizational context in which the c
 
 
 
-\### Fields
+### Fields
 
 
 
-\- Programme context:
+- Programme context:
 
-\- Curriculum requirements:
+- Curriculum requirements:
 
-\- Institutional constraints:
+- Institutional constraints:
 
-\- Regulatory framework:
+- Regulatory framework:
 
-\- Available spaces:
+- Available spaces:
 
-\- Available digital environments:
+- Available digital environments:
 
-\- Available resources:
+- Available resources:
 
-\- Timetable or organizational constraints:
+- Timetable or organizational constraints:
 
-\- Coordination with other courses:
+- Coordination with other courses:
 
-\- Relevant contextual factors:
-
-
-
-\---
+- Relevant contextual factors:
 
 
 
-\## 3. Learner Profile
+---
 
 
 
-\### Purpose
+## 3. Learner Profile
+
+
+
+### Purpose
 
 
 
@@ -176,45 +176,45 @@ Describe the expected characteristics, needs and conditions of the learners.
 
 
 
-\### Fields
+### Fields
 
 
 
-\- Typical learner profile:
+- Typical learner profile:
 
-\- Number of learners:
+- Number of learners:
 
-\- Prior knowledge:
+- Prior knowledge:
 
-\- Prior skills:
+- Prior skills:
 
-\- Digital competence level:
+- Digital competence level:
 
-\- Language competence:
+- Language competence:
 
-\- Expected motivations:
+- Expected motivations:
 
-\- Expected difficulties:
+- Expected difficulties:
 
-\- Diversity considerations:
+- Diversity considerations:
 
-\- Accessibility needs:
+- Accessibility needs:
 
-\- Common misconceptions:
+- Common misconceptions:
 
-\- Support needs:
-
-
-
-\---
+- Support needs:
 
 
 
-\## 4. Learning Outcomes and Competences
+---
 
 
 
-\### Purpose
+## 4. Learning Outcomes and Competences
+
+
+
+### Purpose
 
 
 
@@ -222,41 +222,41 @@ Define what learners are expected to know, understand and be able to do by the e
 
 
 
-\### Fields
+### Fields
 
 
 
-\- General competences:
+- General competences:
 
-\- Specific competences:
+- Specific competences:
 
-\- Learning outcomes:
+- Learning outcomes:
 
-\- Knowledge outcomes:
+- Knowledge outcomes:
 
-\- Skill outcomes:
+- Skill outcomes:
 
-\- Attitudinal / dispositional outcomes:
+- Attitudinal / dispositional outcomes:
 
-\- Professional or practical outcomes:
+- Professional or practical outcomes:
 
-\- Minimum expected performance:
+- Minimum expected performance:
 
-\- Advanced expected performance:
+- Advanced expected performance:
 
-\- Relationship with curriculum requirements:
-
-
-
-\---
+- Relationship with curriculum requirements:
 
 
 
-\## 5. Pedagogical Principles
+---
 
 
 
-\### Purpose
+## 5. Pedagogical Principles
+
+
+
+### Purpose
 
 
 
@@ -264,39 +264,39 @@ State the pedagogical foundations that guide the course design.
 
 
 
-\### Fields
+### Fields
 
 
 
-\- Core pedagogical principles:
+- Core pedagogical principles:
 
-\- Learning theory orientation:
+- Learning theory orientation:
 
-\- Conception of learning:
+- Conception of learning:
 
-\- Conception of teaching:
+- Conception of teaching:
 
-\- What good learning looks like in this course:
+- What good learning looks like in this course:
 
-\- What good teaching looks like in this course:
+- What good teaching looks like in this course:
 
-\- Pedagogical priorities:
+- Pedagogical priorities:
 
-\- Pedagogical boundaries:
+- Pedagogical boundaries:
 
-\- Practices to avoid:
-
-
-
-\---
+- Practices to avoid:
 
 
 
-\## 6. Methodological Approach
+---
 
 
 
-\### Purpose
+## 6. Methodological Approach
+
+
+
+### Purpose
 
 
 
@@ -304,47 +304,47 @@ Describe how teaching and learning are organized in practice.
 
 
 
-\### Fields
+### Fields
 
 
 
-\- Main methodologies:
+- Main methodologies:
 
-\- Teaching strategies:
+- Teaching strategies:
 
-\- Learning strategies:
+- Learning strategies:
 
-\- Typical session structure:
+- Typical session structure:
 
-\- Theory-practice relationship:
+- Theory-practice relationship:
 
-\- Individual work:
+- Individual work:
 
-\- Collaborative work:
+- Collaborative work:
 
-\- Inquiry / problem-solving work:
+- Inquiry / problem-solving work:
 
-\- Project-based work:
+- Project-based work:
 
-\- Classroom interaction:
+- Classroom interaction:
 
-\- Out-of-class work:
+- Out-of-class work:
 
-\- Use of educational technology:
+- Use of educational technology:
 
-\- Use of AI:
-
-
-
-\---
+- Use of AI:
 
 
 
-\## 7. Content Organization
+---
 
 
 
-\### Purpose
+## 7. Content Organization
+
+
+
+### Purpose
 
 
 
@@ -352,45 +352,45 @@ Describe the conceptual structure of the course.
 
 
 
-\### Fields
+### Fields
 
 
 
-\- Main topics:
+- Main topics:
 
-\- Conceptual blocks:
+- Conceptual blocks:
 
-\- Sequence of contents:
+- Sequence of contents:
 
-\- Key concepts:
+- Key concepts:
 
-\- Threshold concepts:
+- Threshold concepts:
 
-\- Foundational concepts:
+- Foundational concepts:
 
-\- Advanced concepts:
+- Advanced concepts:
 
-\- Common misconceptions:
+- Common misconceptions:
 
-\- Required readings:
+- Required readings:
 
-\- Recommended readings:
+- Recommended readings:
 
-\- Complementary resources:
+- Complementary resources:
 
-\- Relationship between contents and learning outcomes:
-
-
-
-\---
+- Relationship between contents and learning outcomes:
 
 
 
-\## 8. Learning Activities
+---
 
 
 
-\### Purpose
+## 8. Learning Activities
+
+
+
+### Purpose
 
 
 
@@ -398,51 +398,51 @@ Describe the types, structure and pedagogical function of the learning activitie
 
 
 
-\### Fields
+### Fields
 
 
 
-\- Main activity types:
+- Main activity types:
 
-\- Individual activities:
+- Individual activities:
 
-\- Group activities:
+- Group activities:
 
-\- Case-based activities:
+- Case-based activities:
 
-\- Project-based activities:
+- Project-based activities:
 
-\- Practice-based activities:
+- Practice-based activities:
 
-\- Reflection activities:
+- Reflection activities:
 
-\- Discussion activities:
+- Discussion activities:
 
-\- Creation / production activities:
+- Creation / production activities:
 
-\- Research or inquiry activities:
+- Research or inquiry activities:
 
-\- Typical activity structure:
+- Typical activity structure:
 
-\- Activity instructions style:
+- Activity instructions style:
 
-\- Expected student outputs:
+- Expected student outputs:
 
-\- Relationship with learning outcomes:
+- Relationship with learning outcomes:
 
-\- Relationship with assessment:
-
-
-
-\---
+- Relationship with assessment:
 
 
 
-\## 9. Assessment Design
+---
 
 
 
-\### Purpose
+## 9. Assessment Design
+
+
+
+### Purpose
 
 
 
@@ -450,49 +450,49 @@ Describe the assessment model of the course and its alignment with learning outc
 
 
 
-\### Fields
+### Fields
 
 
 
-\- Assessment approach:
+- Assessment approach:
 
-\- Formative assessment:
+- Formative assessment:
 
-\- Summative assessment:
+- Summative assessment:
 
-\- Diagnostic assessment:
+- Diagnostic assessment:
 
-\- Assessment tasks:
+- Assessment tasks:
 
-\- Weighting:
+- Weighting:
 
-\- Minimum requirements:
+- Minimum requirements:
 
-\- Assessment criteria:
+- Assessment criteria:
 
-\- Evidence of learning:
+- Evidence of learning:
 
-\- Relationship with learning outcomes:
+- Relationship with learning outcomes:
 
-\- Relationship with activities:
+- Relationship with activities:
 
-\- Reassessment / recovery rules:
+- Reassessment / recovery rules:
 
-\- Academic integrity expectations:
+- Academic integrity expectations:
 
-\- Role of AI in assessment:
-
-
-
-\---
+- Role of AI in assessment:
 
 
 
-\## 10. Feedback Model
+---
 
 
 
-\### Purpose
+## 10. Feedback Model
+
+
+
+### Purpose
 
 
 
@@ -500,51 +500,51 @@ Define how feedback should be provided to learners.
 
 
 
-\### Fields
+### Fields
 
 
 
-\- Feedback purpose:
+- Feedback purpose:
 
-\- Feedback timing:
+- Feedback timing:
 
-\- Feedback tone:
+- Feedback tone:
 
-\- Feedback depth:
+- Feedback depth:
 
-\- Feedback structure:
+- Feedback structure:
 
-\- Feedback focus:
+- Feedback focus:
 
-\- Task-level feedback:
+- Task-level feedback:
 
-\- Process-level feedback:
+- Process-level feedback:
 
-\- Self-regulation feedback:
+- Self-regulation feedback:
 
-\- Feedforward:
+- Feedforward:
 
-\- When to provide direct correction:
+- When to provide direct correction:
 
-\- When to provide hints:
+- When to provide hints:
 
-\- When to ask guiding questions:
+- When to ask guiding questions:
 
-\- What feedback should avoid:
+- What feedback should avoid:
 
-\- AI feedback rules:
-
-
-
-\---
+- AI feedback rules:
 
 
 
-\## 11. Quality Criteria for Student Work
+---
 
 
 
-\### Purpose
+## 11. Quality Criteria for Student Work
+
+
+
+### Purpose
 
 
 
@@ -552,49 +552,49 @@ Define what counts as quality work in the course.
 
 
 
-\### Fields
+### Fields
 
 
 
-\- General quality criteria:
+- General quality criteria:
 
-\- Disciplinary quality criteria:
+- Disciplinary quality criteria:
 
-\- Methodological quality criteria:
+- Methodological quality criteria:
 
-\- Conceptual quality criteria:
+- Conceptual quality criteria:
 
-\- Analytical quality criteria:
+- Analytical quality criteria:
 
-\- Practical quality criteria:
+- Practical quality criteria:
 
-\- Communication quality criteria:
+- Communication quality criteria:
 
-\- Ethical quality criteria:
+- Ethical quality criteria:
 
-\- Use of evidence:
+- Use of evidence:
 
-\- Use of references:
+- Use of references:
 
-\- Expected level of originality:
+- Expected level of originality:
 
-\- Common weaknesses:
+- Common weaknesses:
 
-\- Examples of strong work:
+- Examples of strong work:
 
-\- Examples of insufficient work:
-
-
-
-\---
+- Examples of insufficient work:
 
 
 
-\## 12. Roles and Responsibilities
+---
 
 
 
-\### Purpose
+## 12. Roles and Responsibilities
+
+
+
+### Purpose
 
 
 
@@ -602,83 +602,83 @@ Define the expected roles of teachers, learners, AI systems and other relevant a
 
 
 
-\### Teacher role
+### Teacher role
 
 
 
-\- Main responsibilities:
+- Main responsibilities:
 
-\- Teaching role:
+- Teaching role:
 
-\- Facilitation role:
+- Facilitation role:
 
-\- Assessment role:
+- Assessment role:
 
-\- Feedback role:
+- Feedback role:
 
-\- AI supervision role:
-
-
-
-\### Learner role
+- AI supervision role:
 
 
 
-\- Main responsibilities:
-
-\- Participation expectations:
-
-\- Autonomy expectations:
-
-\- Collaboration expectations:
-
-\- Reflection expectations:
-
-\- Responsible AI use:
+### Learner role
 
 
 
-\### AI role
+- Main responsibilities:
+
+- Participation expectations:
+
+- Autonomy expectations:
+
+- Collaboration expectations:
+
+- Reflection expectations:
+
+- Responsible AI use:
 
 
 
-\- Main responsibilities:
-
-\- Support functions:
-
-\- Tutoring functions:
-
-\- Feedback functions:
-
-\- Content generation functions:
-
-\- Prohibited functions:
+### AI role
 
 
 
-\### Other roles
+- Main responsibilities:
+
+- Support functions:
+
+- Tutoring functions:
+
+- Feedback functions:
+
+- Content generation functions:
+
+- Prohibited functions:
 
 
 
-\- Teaching assistants:
-
-\- External collaborators:
-
-\- Institution:
-
-\- Families / guardians, if relevant:
+### Other roles
 
 
 
-\---
+- Teaching assistants:
+
+- External collaborators:
+
+- Institution:
+
+- Families / guardians, if relevant:
 
 
 
-\## 13. AI Use Policy
+---
 
 
 
-\### Purpose
+## 13. AI Use Policy
+
+
+
+### Purpose
 
 
 
@@ -686,53 +686,53 @@ Define how AI may be used in the course by learners, teachers and support system
 
 
 
-\### Fields
+### Fields
 
 
 
-\- General AI policy:
+- General AI policy:
 
-\- Allowed uses:
+- Allowed uses:
 
-\- Recommended uses:
+- Recommended uses:
 
-\- Restricted uses:
+- Restricted uses:
 
-\- Prohibited uses:
+- Prohibited uses:
 
-\- AI use by learners:
+- AI use by learners:
 
-\- AI use by teachers:
+- AI use by teachers:
 
-\- AI use in assessment:
+- AI use in assessment:
 
-\- AI use in feedback:
+- AI use in feedback:
 
-\- AI use in content creation:
+- AI use in content creation:
 
-\- AI use in tutoring:
+- AI use in tutoring:
 
-\- Transparency requirements:
+- Transparency requirements:
 
-\- Citation / acknowledgement requirements:
+- Citation / acknowledgement requirements:
 
-\- Data privacy requirements:
+- Data privacy requirements:
 
-\- Human responsibility:
+- Human responsibility:
 
-\- Consequences of misuse:
-
-
-
-\---
+- Consequences of misuse:
 
 
 
-\## 14. AI Agent Behaviour
+---
 
 
 
-\### Purpose
+## 14. AI Agent Behaviour
+
+
+
+### Purpose
 
 
 
@@ -740,61 +740,61 @@ Specify how an AI assistant or educational agent should behave when operating wi
 
 
 
-\### Fields
+### Fields
 
 
 
-\- Agent role:
+- Agent role:
 
-\- Primary purpose:
+- Primary purpose:
 
-\- Permitted actions:
+- Permitted actions:
 
-\- Non-permitted actions:
+- Non-permitted actions:
 
-\- Explanation style:
+- Explanation style:
 
-\- Tone:
+- Tone:
 
-\- Level of detail:
+- Level of detail:
 
-\- Language policy:
+- Language policy:
 
-\- Scaffolding strategy:
+- Scaffolding strategy:
 
-\- Hint strategy:
+- Hint strategy:
 
-\- Questioning strategy:
+- Questioning strategy:
 
-\- Feedback strategy:
+- Feedback strategy:
 
-\- Adaptation to learner level:
+- Adaptation to learner level:
 
-\- Handling of uncertainty:
+- Handling of uncertainty:
 
-\- Handling of errors:
+- Handling of errors:
 
-\- Handling of sensitive data:
+- Handling of sensitive data:
 
-\- Escalation to teacher:
+- Escalation to teacher:
 
-\- Refusal rules:
+- Refusal rules:
 
-\- Examples of appropriate responses:
+- Examples of appropriate responses:
 
-\- Examples of inappropriate responses:
-
-
-
-\---
+- Examples of inappropriate responses:
 
 
 
-\## 15. Inclusion and Accessibility
+---
 
 
 
-\### Purpose
+## 15. Inclusion and Accessibility
+
+
+
+### Purpose
 
 
 
@@ -802,49 +802,49 @@ Define how the course addresses learner diversity, accessibility and inclusive p
 
 
 
-\### Fields
+### Fields
 
 
 
-\- Accessibility principles:
+- Accessibility principles:
 
-\- Universal Design for Learning considerations:
+- Universal Design for Learning considerations:
 
-\- Multiple means of engagement:
+- Multiple means of engagement:
 
-\- Multiple means of representation:
+- Multiple means of representation:
 
-\- Multiple means of action and expression:
+- Multiple means of action and expression:
 
-\- Language accessibility:
+- Language accessibility:
 
-\- Digital accessibility:
+- Digital accessibility:
 
-\- Cognitive accessibility:
+- Cognitive accessibility:
 
-\- Socioeconomic accessibility:
+- Socioeconomic accessibility:
 
-\- Cultural considerations:
+- Cultural considerations:
 
-\- Adaptation rules:
+- Adaptation rules:
 
-\- Barriers to avoid:
+- Barriers to avoid:
 
-\- AI-supported accessibility:
+- AI-supported accessibility:
 
-\- Limits of adaptation:
-
-
-
-\---
+- Limits of adaptation:
 
 
 
-\## 16. Learning Evidence and Analytics
+---
 
 
 
-\### Purpose
+## 16. Learning Evidence and Analytics
+
+
+
+### Purpose
 
 
 
@@ -852,105 +852,105 @@ Define what learning evidence may be collected, interpreted and used to improve 
 
 
 
-\### Fields
+### Fields
 
 
 
-\- Relevant evidence of learning:
+- Relevant evidence of learning:
 
-\- Observable indicators:
+- Observable indicators:
 
-\- Trackable events:
+- Trackable events:
 
-\- Data sources:
+- Data sources:
 
-\- LMS data:
+- LMS data:
 
-\- Activity data:
+- Activity data:
 
-\- Assessment data:
+- Assessment data:
 
-\- Feedback data:
+- Feedback data:
 
-\- Self-reflection data:
+- Self-reflection data:
 
-\- AI interaction data:
+- AI interaction data:
 
-\- Interpretation rules:
+- Interpretation rules:
 
-\- Interpretation cautions:
+- Interpretation cautions:
 
-\- Data that should not be collected:
+- Data that should not be collected:
 
-\- Data privacy requirements:
+- Data privacy requirements:
 
-\- Use of analytics for teaching improvement:
+- Use of analytics for teaching improvement:
 
-\- Use of analytics for learner support:
+- Use of analytics for learner support:
 
-\- Human oversight:
-
-
-
-\---
+- Human oversight:
 
 
 
-\## 17. Related Files and Modular Extensions
+---
 
 
 
-\### Purpose
+## 17. Related Files and Modular Extensions
 
 
 
-Define the relationship between \*\*PEDAGOGY.md\*\* and other complementary files.
+### Purpose
 
 
 
-\### Fields
+Define the relationship between **PEDAGOGY.md** and other complementary files.
 
 
 
-\- `assessment.md`:
-
-\- `activities.md`:
-
-\- `content.md`:
-
-\- `ai-policy.md`:
-
-\- `feedback.md`:
-
-\- `cases.md`:
-
-\- `rubrics/`:
-
-\- `resources/`:
-
-\- `skills/`:
-
-\- `prompts/`:
-
-\- `agents/`:
-
-\- `analytics.md`:
-
-\- `ethics.md`:
-
-\- Other related files:
+### Fields
 
 
 
-\---
+- `assessment.md`:
+
+- `activities.md`:
+
+- `content.md`:
+
+- `ai-policy.md`:
+
+- `feedback.md`:
+
+- `cases.md`:
+
+- `rubrics/`:
+
+- `resources/`:
+
+- `skills/`:
+
+- `prompts/`:
+
+- `agents/`:
+
+- `analytics.md`:
+
+- `ethics.md`:
+
+- Other related files:
 
 
 
-\## 18. Versioning and Maintenance
+---
 
 
 
-\### Purpose
+## 18. Versioning and Maintenance
+
+
+
+### Purpose
 
 
 
@@ -958,41 +958,41 @@ Ensure that the file remains updated, traceable and usable across course edition
 
 
 
-\### Fields
+### Fields
 
 
 
-\- Version:
+- Version:
 
-\- Last updated:
+- Last updated:
 
-\- Updated by:
+- Updated by:
 
-\- Reviewed by:
+- Reviewed by:
 
-\- Course edition:
+- Course edition:
 
-\- Change log:
+- Change log:
 
-\- Sections updated:
+- Sections updated:
 
-\- Reason for update:
+- Reason for update:
 
-\- Review frequency:
+- Review frequency:
 
-\- Planned next review:
+- Planned next review:
 
-\- Known limitations:
+- Known limitations:
 
-\- Pending improvements:
-
-
-
-\---
+- Pending improvements:
 
 
 
-\## Completion checklist
+---
+
+
+
+## Completion checklist
 
 
 
@@ -1000,75 +1000,75 @@ Use this checklist before using the file with AI systems, sharing it with a teac
 
 
 
-\### Minimum completion
+### Minimum completion
 
 
 
-\- \[ ] Course Identity is completed.
+- [ ] Course Identity is completed.
 
-\- \[ ] Educational Context is completed.
+- [ ] Educational Context is completed.
 
-\- \[ ] Learner Profile is completed.
+- [ ] Learner Profile is completed.
 
-\- \[ ] Learning Outcomes and Competences are completed.
+- [ ] Learning Outcomes and Competences are completed.
 
-\- \[ ] Pedagogical Principles are completed.
+- [ ] Pedagogical Principles are completed.
 
-\- \[ ] Methodological Approach is completed.
+- [ ] Methodological Approach is completed.
 
-\- \[ ] Assessment Design is completed.
+- [ ] Assessment Design is completed.
 
-\- \[ ] Feedback Model is completed.
+- [ ] Feedback Model is completed.
 
-\- \[ ] AI Use Policy is completed.
+- [ ] AI Use Policy is completed.
 
-\- \[ ] Versioning and Maintenance is completed.
-
-
-
-\### Recommended completion
+- [ ] Versioning and Maintenance is completed.
 
 
 
-\- \[ ] Content Organization is completed.
-
-\- \[ ] Learning Activities are completed.
-
-\- \[ ] Quality Criteria for Student Work is completed.
-
-\- \[ ] Roles and Responsibilities is completed.
-
-\- \[ ] Inclusion and Accessibility is completed.
+### Recommended completion
 
 
 
-\### Advanced completion
+- [ ] Content Organization is completed.
+
+- [ ] Learning Activities are completed.
+
+- [ ] Quality Criteria for Student Work is completed.
+
+- [ ] Roles and Responsibilities is completed.
+
+- [ ] Inclusion and Accessibility is completed.
 
 
 
-\- \[ ] AI Agent Behaviour is completed.
-
-\- \[ ] Learning Evidence and Analytics is completed.
-
-\- \[ ] Related Files and Modular Extensions is completed.
-
-\- \[ ] Complementary files are referenced where needed.
-
-\- \[ ] The file is coherent with institutional policies.
-
-\- \[ ] The file is coherent with assessment requirements.
-
-\- \[ ] The file defines clear boundaries for AI use.
-
-\- \[ ] The file has been reviewed and versioned.
+### Advanced completion
 
 
 
-\---
+- [ ] AI Agent Behaviour is completed.
+
+- [ ] Learning Evidence and Analytics is completed.
+
+- [ ] Related Files and Modular Extensions is completed.
+
+- [ ] Complementary files are referenced where needed.
+
+- [ ] The file is coherent with institutional policies.
+
+- [ ] The file is coherent with assessment requirements.
+
+- [ ] The file defines clear boundaries for AI use.
+
+- [ ] The file has been reviewed and versioned.
 
 
 
-\## Notes for maintainers
+---
+
+
+
+## Notes for maintainers
 
 
 
@@ -1076,21 +1076,21 @@ Update this file when:
 
 
 
-\- learning outcomes change;
+- learning outcomes change;
 
-\- assessment tasks or criteria change;
+- assessment tasks or criteria change;
 
-\- methodology changes;
+- methodology changes;
 
-\- AI use policy changes;
+- AI use policy changes;
 
-\- learner profile changes significantly;
+- learner profile changes significantly;
 
-\- institutional rules change;
+- institutional rules change;
 
-\- new complementary files are added;
+- new complementary files are added;
 
-\- AI assistants or agents are modified;
+- AI assistants or agents are modified;
 
-\- the course is revised for a new edition.
+- the course is revised for a new edition.
 
