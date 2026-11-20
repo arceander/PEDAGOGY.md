@@ -20,6 +20,12 @@ The project is developed progressively. The first goal is to publish a usable v1
 
 ## Current status
 
+### Documented additions from Ant_26.27
+
+The current unreleased documentation now includes selective module adoption, an optional [ontology guide](docs/ontology.md), module selection and development states, stable content architecture versus teaching routes, resource and activity patterns, and contrasting [Ant](examples/school-organization.md) and [ICT](examples/ict-primary-education.md) examples.
+
+These documentation additions are not a new release or an empirical validation of the standard. Formal schemas, automated semantic validation, LMS integration, multilingual terminology validation and evaluation of educational effects remain future work. Larger course structures remain optional.
+
 
 
 **Current stage:** v1.0 draft
@@ -86,8 +92,6 @@ PEDAGOGY.md/
 
 ├── PEDAGOGY.template.md
 
-├── PEDAGOGY.example.md
-
 │
 
 ├── docs/
@@ -96,19 +100,23 @@ PEDAGOGY.md/
 
 │   ├── ai-usage.md
 
-│   └── file-ecosystem.md
+│   ├── file-ecosystem.md
+
+│   └── ontology.md
 
 │
 
 ├── examples/
 
-│   └── university-course.md
+│   ├── ict-primary-education.md
+
+│   └── school-organization.md
 
 │
 
 ├── CONTRIBUTING.md
 
-├── LICENSE
+├── LICENSE.md
 
 ├── CHANGELOG.md
 
@@ -132,12 +140,16 @@ PEDAGOGY.md/
 
 - `PEDAGOGY.template.md`
 
-- `PEDAGOGY.example.md`
+- `examples/ict-primary-education.md`
+
+- `examples/school-organization.md`
 
 
 
 #### Documentation
 
+
+- `docs/ontology.md` (optional extension guide, already documented)
 
 
 - `docs/getting-started.md`
@@ -154,7 +166,7 @@ PEDAGOGY.md/
 
 - `CONTRIBUTING.md`
 
-- `LICENSE`
+- `LICENSE.md`
 
 - `CHANGELOG.md`
 
@@ -166,11 +178,11 @@ PEDAGOGY.md/
 
 
 
-- `examples/university-course.md`
+- Existing example: `examples/ict-primary-education.md`
 
-- Optional additional example: `examples/ict-primary-education.md`
+- Existing implementation example: `examples/school-organization.md`
 
-- Optional additional example: `examples/school-organization.md`
+- Additional contexts may be contributed when they illustrate a distinct need.
 
 
 
@@ -757,15 +769,10 @@ The project follows a simple versioning model.
 
 
 | Version | Meaning |
-
 |---|---|
-
 | `0.x` | Experimental drafts |
-
 | `1.0` | First stable public version |
-
 | `1.x` | Backward-compatible improvements |
-
 | `2.0` | Major structural revision |
 
 
@@ -850,13 +857,13 @@ Before publishing a release, check:
 
 - `PEDAGOGY.template.md` matches the standard.
 
-- At least one `PEDAGOGY.example.md` is available.
+- At least one contextualized example is available in `examples/`.
 
 - Documentation files are coherent.
 
 - `CONTRIBUTING.md` is up to date.
 
-- `LICENSE` is included.
+- `LICENSE.md` is included.
 
 - `CHANGELOG.md` is updated.
 
@@ -879,6 +886,8 @@ Before publishing a release, check:
 
 
 ## Current priorities
+
+Review the unreleased adoption changes with teachers before choosing the next release label. Collect evidence about usability and maintenance, including compact implementations and courses that omit cases or ontologies. Keep reported experience separate from evaluated learning effects.
 
 
 

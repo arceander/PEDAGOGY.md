@@ -11,15 +11,10 @@ This project follows a simple versioning model:
 
 
 | Version | Meaning |
-
 |---|---|
-
 | `0.x` | Experimental drafts |
-
 | `1.0` | First stable public version |
-
 | `1.x` | Backward-compatible improvements |
-
 | `2.0` | Major structural revision |
 
 
@@ -33,6 +28,24 @@ The format is inspired by Keep a Changelog, adapted to the needs of an education
 
 
 ## [Unreleased]
+
+### Added — Selective adoption and lessons from Ant_26.27
+
+- Optional ontology guidance with a small conceptual record and maintenance rules in `docs/ontology.md`.
+- Course module register distinguishing adopted, explicitly planned, non-adopted and retired material.
+- Stable conceptual architecture versus edition-specific teaching route.
+- Patterns for source identities and justified uses, activity design metadata and concise learner instructions.
+- A documented Ant_26.27 implementation example, replacing a duplicate getting-started guide.
+
+### Changed — Modular documentation
+
+- Made single-file and selective module adoption explicit across the specification, template, entry points and AI instructions.
+- Clarified that completion levels concern relevant documentation depth, not numbers of files or folders.
+- Replaced the template's universal extension list with a register of the modules a course actually adopts.
+- Distinguished disciplinary content, ontology relationships and resource metadata by responsibility, with change-propagation and identifier-history guidance.
+- Updated the ICT example to omit a persistent case module while retaining scenarios within tasks and assessment.
+- Distinguished teacher-perceived usefulness for AI context from evaluated educational effects.
+- Updated repository navigation and the roadmap to reflect these documented additions. No new release is declared by these changes.
 
 
 

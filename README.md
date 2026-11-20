@@ -18,6 +18,14 @@ Its purpose is to make the pedagogical intent of a course explicit, reusable and
 
 
 
+## Start with the documentation your course needs
+
+PEDAGOGY.md supports selective and proportionate adoption. Teachers and teaching teams choose the documentation components that serve their learning context. A course may keep the relevant information in a single PEDAGOGY.md file or develop selected complementary modules. The file and folder structures shown in this repository are examples of possible implementations; they do not prescribe a directory structure. Modules that are not adopted are not automatically pending or missing.
+
+The [getting started guide](docs/getting-started.md) starts with one file. The [file ecosystem guide](docs/file-ecosystem.md) explains optional extensions, including an [ontology](docs/ontology.md). The [school organization example](examples/school-organization.md) uses persistent cases; the [ICT example](examples/ict-primary-education.md) does not adopt that case system. Both choices are valid.
+
+---
+
 ## Why PEDAGOGY.md?
 
 
@@ -430,36 +438,25 @@ Even without AI, **PEDAGOGY.md** can help teaching teams make course design expl
 
 **PEDAGOGY.md** can be extended through complementary files:
 
+This table is a menu of possible responsibilities. Select only those that serve the course; the information can stay in the core file when that is sufficient.
+
 
 
 | File or folder | Purpose |
-
 |---|---|
-
 | `assessment.md` | Detailed assessment system, rubrics, criteria, weighting, reassessment rules and grading guidance. |
-
 | `activities.md` | Detailed design of learning activities, instructions, timing, grouping, outputs and sequencing. |
-
-| `content.md` | Course topics, conceptual blocks, key concepts, readings and learning resources. |
-
+| `content.md` | Stable conceptual architecture, relevant readings and relationships to the teaching route. |
+| `ontology.md` | Optional concept identities, preferred terms, definitions, relationships and locations. |
 | `ai-policy.md` | Detailed AI use policy, including transparency, authorship, privacy and academic integrity. |
-
 | `feedback.md` | Feedback templates, tone, depth, examples, correction rules and AI-assisted feedback guidance. |
-
-| `cases.md` | Practical cases, problems, simulations, scenarios and discussion prompts. |
-
+| `cases.md` / `cases/` | Optional shared case design and persistent scenarios. Occasional examples can remain within activities. |
 | `rubrics/` | Specific rubrics for tasks, products, competences or learning outcomes. |
-
 | `resources/` | Teaching materials, readings, links, examples, slides, worksheets and reusable resources. |
-
 | `skills/` | AI-executable skills based on the pedagogical context of the course. |
-
 | `prompts/` | Reusable prompts for teachers, learners or AI agents. |
-
 | `agents/` | Specifications for specific educational agents derived from **PEDAGOGY.md**. |
-
 | `analytics.md` | Learning evidence, indicators, data sources, interpretation rules and ethical limits. |
-
 | `ethics.md` | Ethical principles for AI, data, privacy, transparency, bias, equity and human oversight. |
 
 
@@ -469,6 +466,8 @@ Even without AI, **PEDAGOGY.md** can help teaching teams make course design expl
 
 
 ## How AI systems should use PEDAGOGY.md
+
+Identify the actual modules adopted by the course before consulting complementary material. Do not assume that an illustrated folder exists or that its absence is unfinished work.
 
 
 
@@ -520,65 +519,24 @@ An AI system should not:
 
 ## Repository contents
 
+This repository documents the standard. A teacher's course implementation can use a different and smaller arrangement.
 
-
-This repository may include:
-
-
-
-- `PEDAGOGY.md`
-
-- `PEDAGOGY.template.md`
-
-- `PEDAGOGY.example.md`
-
-- `docs/`
-
-- `examples/`
-
-- `schemas/`
-
-- `.github/`
-
-- `CONTRIBUTING.md`
-
-- `CHANGELOG.md`
-
-- `ROADMAP.md`
-
-- `LICENSE`
-
-
-
-Recommended first files:
-
-
-
-- `PEDAGOGY.md`: specification of the standard.
-
-- `PEDAGOGY.template.md`: editable template for teachers.
-
-- `PEDAGOGY.example.md`: completed example.
-
-- `docs/getting-started.md`: quick start guide.
-
-- `docs/structure.md`: explanation of each section.
-
-- `docs/ai-usage.md`: guidance for AI systems.
-
-- `docs/file-ecosystem.md`: explanation of related files.
-
-- `CONTRIBUTING.md`: contribution guidelines.
-
-- `CHANGELOG.md`: version history.
-
-- `ROADMAP.md`: planned development.
-
-
+| File | Purpose |
+|---|---|
+| [PEDAGOGY.md](PEDAGOGY.md) | Standard specification and 18-section reference structure. |
+| [PEDAGOGY.template.md](PEDAGOGY.template.md) | Editable course template. |
+| [Getting started](docs/getting-started.md) | Begin with the core and select extensions as needed. |
+| [File ecosystem](docs/file-ecosystem.md) | Optional modules, ownership, relationships and maintenance. |
+| [AI usage](docs/ai-usage.md) | Guidance and base instructions for assistants. |
+| [Ontology](docs/ontology.md) | Optional conceptual vocabulary and relationships. |
+| [School organization](examples/school-organization.md) | Ant_26.27 implementation choices and development state. |
+| [ICT in primary education](examples/ict-primary-education.md) | Course example without a persistent case module. |
+| [Contributing](CONTRIBUTING.md) | Contribution guidelines. |
+| [Changelog](CHANGELOG.md) | Change history. |
+| [Roadmap](ROADMAP.md) | Planned development. |
+| [License](LICENSE.md) | License text. |
 
 ---
-
-
 
 ## Status
 

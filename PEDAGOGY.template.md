@@ -22,6 +22,10 @@
 
 ## How to use this template
 
+PEDAGOGY.md supports selective and proportionate adoption. Teachers and teaching teams choose the documentation components that serve their learning context. A course may keep the relevant information in a single PEDAGOGY.md file or develop selected complementary modules. The file and folder structures shown in this repository are examples of possible implementations; they do not prescribe a directory structure. Modules that are not adopted are not automatically pending or missing.
+
+Keep the relevant information in this file when that is sufficient. Omit optional fields or briefly mark them not applicable when an explanation helps. Never fill gaps with plausible but unconfirmed decisions.
+
 
 
 Complete this file to describe the pedagogical, methodological, assessment, organizational, ethical and AI-related design of a course, subject, module or learning experience.
@@ -40,7 +44,7 @@ This file can be completed at three levels:
 
 - **Recommended level:** add enough detail to guide the creation of activities, resources, assessment and feedback.
 
-- **Advanced level:** complete the full structure to support AI assistants, educational agents, analytics and modular documentation.
+- **Advanced level:** address the full reference structure to the depth needed for this context, including AI assistants, evidence interpretation and documentation arrangements where relevant. State non-applicability when useful; the level does not require extra folders.
 
 
 
@@ -342,6 +346,8 @@ Describe how teaching and learning are organized in practice.
 
 ## 7. Content Organization
 
+When useful, document the stable conceptual map, its prerequisites and the route followed in this edition separately. Reference an adopted ontology only if one exists; see the [optional ontology guide](https://github.com/arceander/PEDAGOGY.md/blob/main/docs/ontology.md).
+
 
 
 ### Purpose
@@ -387,6 +393,8 @@ Describe the conceptual structure of the course.
 
 
 ## 8. Learning Activities
+
+Keep learner-facing instructions concise. Internal design metadata can be maintained separately when needed; use local activity types and codes that serve this course.
 
 
 
@@ -676,6 +684,8 @@ Define the expected roles of teachers, learners, AI systems and other relevant a
 
 ## 13. AI Use Policy
 
+Specify activity-level conditions where relevant. An acknowledgement can record purpose, use, tool and the checks or changes made by the learner.
+
 
 
 ### Purpose
@@ -898,53 +908,26 @@ Define what learning evidence may be collected, interpreted and used to improve 
 
 ## 17. Related Files and Modular Extensions
 
-
-
 ### Purpose
 
+Identify the documentation this course actually adopts. A single-file implementation may state that all relevant information remains here.
 
+### Selected documentation
 
-Define the relationship between **PEDAGOGY.md** and other complementary files.
+- Documentation arrangement:
 
+| Module | Actual location | Function and scope | Status and version | Alignment and dependencies |
+|---|---|---|---|---|
 
+Add rows only for adopted modules. Delete the table if it adds no value. Optional responsibilities include content, ontology, activities, assessment, resources, cases or agent specifications; consult the [file ecosystem guide](https://github.com/arceander/PEDAGOGY.md/blob/main/docs/file-ecosystem.md) before adding a module.
 
-### Fields
+- Explicitly planned work, if any:
+- Non-adopted modules worth explaining, if any:
+- Retired or replaced materials that need a historical reference, if any:
 
-
-
-- `assessment.md`:
-
-- `activities.md`:
-
-- `content.md`:
-
-- `ai-policy.md`:
-
-- `feedback.md`:
-
-- `cases.md`:
-
-- `rubrics/`:
-
-- `resources/`:
-
-- `skills/`:
-
-- `prompts/`:
-
-- `agents/`:
-
-- `analytics.md`:
-
-- `ethics.md`:
-
-- Other related files:
-
-
+An unused module is not automatically pending. No empty directory structure is required.
 
 ---
-
-
 
 ## 18. Versioning and Maintenance
 
@@ -985,6 +968,9 @@ Ensure that the file remains updated, traceable and usable across course edition
 - Known limitations:
 
 - Pending improvements:
+
+- Related materials affected by the current change, if any:
+- Identifier migrations or replacements, if any:
 
 
 
@@ -1044,6 +1030,8 @@ Use this checklist before using the file with AI systems, sharing it with a teac
 
 ### Advanced completion
 
+Apply these checks to the relevant scope. Non-adopted modules do not need to be created to complete this checklist.
+
 
 
 - [ ] AI Agent Behaviour is completed.
@@ -1053,6 +1041,10 @@ Use this checklist before using the file with AI systems, sharing it with a teac
 - [ ] Related Files and Modular Extensions is completed.
 
 - [ ] Complementary files are referenced where needed.
+
+- [ ] The module register reflects the actual configuration.
+- [ ] Planned work is distinguished from modules not adopted.
+- [ ] Related materials affected by changes have been checked.
 
 - [ ] The file is coherent with institutional policies.
 

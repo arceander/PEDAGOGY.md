@@ -24,6 +24,8 @@
 
 ## How to read this example
 
+**Module selection:** this configuration does not adopt a persistent case system (`cases.md` or `cases/`). Scenarios, tool-selection dilemmas and practical cases can remain inside activities or assessment. Other complementary files below are options to be adopted when useful, not a required directory structure. Ontology adoption remains a local choice.
+
 
 
 This file is an example of how **PEDAGOGY.md** can be completed for a university course.
@@ -2582,6 +2584,8 @@ Define what learning evidence may be collected, interpreted and used to improve 
 
 ## 17. Related Files and Modular Extensions
 
+The entries describe possible responsibilities. Only adopted files should appear in an operational module register; mark planned work explicitly. This example's decision to omit the persistent case module is intentional and does not make it incomplete. See the [file ecosystem guide](../docs/file-ecosystem.md).
+
 
 
 ### Purpose
@@ -2628,7 +2632,7 @@ Define the relationship between **PEDAGOGY.md** and other complementary files.
 
 - **`cases.md`:**
 
-  May include ICT-related educational scenarios, digital wellbeing cases, tool-selection dilemmas and classroom design problems.
+  **Not adopted in this configuration.** ICT-related scenarios, digital wellbeing problems, tool-selection dilemmas and classroom design problems can be embedded directly in activities. Their use does not require a separate case bank or folder.
 
 
 
