@@ -69,43 +69,24 @@ A complete **PEDAGOGY.md** file provides an AI system with structured informatio
 
 
 | Section | What the AI should learn from it |
-
 |---|---|
-
 | Course Identity | Course level, language, duration, modality, institutional setting and general purpose. |
-
 | Educational Context | Institutional, curricular, organizational and resource constraints. |
-
 | Learner Profile | Learner needs, prior knowledge, difficulties, accessibility needs and misconceptions. |
-
 | Learning Outcomes and Competences | Target knowledge, skills, competences and expected performance. |
-
 | Pedagogical Principles | The teaching and learning philosophy of the course. |
-
 | Methodological Approach | How teaching and learning are organized in practice. |
-
 | Content Organization | Topics, conceptual structure, key concepts and readings. |
-
 | Learning Activities | Types of tasks, activity formats, expected outputs and activity logic. |
-
 | Assessment Design | Assessment tasks, criteria, weighting, evidence and integrity expectations. |
-
 | Feedback Model | Tone, depth, structure and focus of feedback. |
-
 | Quality Criteria for Student Work | Standards used to judge student productions. |
-
 | Roles and Responsibilities | What teachers, learners, AI systems and other actors may or may not do. |
-
 | AI Use Policy | Allowed, recommended, restricted and prohibited uses of AI. |
-
 | AI Agent Behaviour | Behavioural rules for AI assistants operating in the course. |
-
 | Inclusion and Accessibility | Accessibility, inclusion and adaptation principles. |
-
 | Learning Evidence and Analytics | Data, indicators, interpretation rules and privacy limits. |
-
 | Related Files and Modular Extensions | Where to find more detailed information. |
-
 | Versioning and Maintenance | Whether the file is current, provisional or under revision. |
 
 
@@ -489,21 +470,13 @@ The AI should identify which sections of **PEDAGOGY.md** are relevant.
 
 
 | Task | Relevant sections |
-
 |---|---|
-
 | Generate an activity | Learning Outcomes, Methodological Approach, Learning Activities, Assessment Design |
-
 | Give feedback | Feedback Model, Quality Criteria, Assessment Design, Learner Profile |
-
 | Create a rubric | Learning Outcomes, Assessment Design, Quality Criteria |
-
 | Explain a concept | Learner Profile, Content Organization, Pedagogical Principles |
-
 | Create a case | Content Organization, Learning Activities, Methodological Approach |
-
 | Configure an AI agent | AI Use Policy, AI Agent Behaviour, Roles and Responsibilities |
-
 | Interpret learning evidence | Learning Evidence and Analytics, Assessment Design, Ethical constraints |
 
 
@@ -1079,21 +1052,13 @@ Traceability means that a generated output can be justified through the file.
 
 
 | Output | Should be traceable to |
-
 |---|---|
-
 | Activity | Learning outcomes, methodology, learner profile, assessment |
-
 | Rubric | Learning outcomes, assessment design, quality criteria |
-
 | Feedback | Feedback model, quality criteria, learner profile |
-
 | AI refusal | AI use policy, academic integrity rules, privacy requirements |
-
 | Explanation | Content organization, learner profile, pedagogical principles |
-
 | Agent behaviour | AI Agent Behaviour, Roles and Responsibilities |
-
 | Analytics interpretation | Learning Evidence and Analytics, privacy requirements |
 
 
@@ -1316,6 +1281,8 @@ Example:
 
 ## 13. Relationship with complementary files
 
+First identify the course's actual documentation arrangement. Optional modules that are not adopted are not missing requirements. Consult the relevant current files, check their development state, and preserve the distinction between a proposal and the teacher's validated decisions. Ask about essential missing task information rather than demanding an absent optional folder.
+
 
 
 If **PEDAGOGY.md** references complementary files, the AI should use them when relevant.
@@ -1330,7 +1297,9 @@ Examples:
 
 - use `activities.md` for task instructions;
 
-- use `content.md` for conceptual sequences and readings;
+- use adopted `content.md` for the stable conceptual map, relevant readings and teaching-route correspondences;
+
+- use adopted `ontology.md` for concept identities, preferred terms, access definitions and relationships; see the [ontology guide](ontology.md);
 
 - use `ai-policy.md` for detailed AI use rules;
 
@@ -1351,6 +1320,10 @@ Examples:
 
 
 The AI should not overload **PEDAGOGY.md** with information that belongs in a complementary file.
+
+Use the existing content materials to understand developed disciplinary meaning. An ontology does not supersede them or guarantee that every entry has been retrieved. Report which material was actually used when traceability matters. Avoid attributing improved learning or AI performance to the presence of an ontology without evaluation.
+
+For activity generation, keep the learner-facing instructions proportionate while preserving required design information in the adopted inventory or notes. Apply the activity's AI conditions. When revising shared information, identify affected files and retain teacher approval as the basis for changing core decisions.
 
 
 
@@ -1373,6 +1346,11 @@ You are an educational AI assistant operating within a specific course.
 
 
 Use the provided PEDAGOGY.md file as your primary pedagogical context.
+
+Identify the modules this course actually adopts before consulting additional files.
+Do not assume every module illustrated in the standard exists.
+Distinguish explicitly planned work, modules not adopted, and retired or replaced material.
+Use relevant current sources within their responsibilities, and keep proposals separate from validated teacher decisions.
 
 
 

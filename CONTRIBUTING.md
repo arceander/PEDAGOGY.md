@@ -408,6 +408,8 @@ A new section should not be added only because the topic is interesting. It shou
 
 ## 6. How to propose a complementary file
 
+Complementary modules are optional. Explain what need the proposed module serves, when keeping the information in the core would suffice, and what maintenance its adoption requires. A new extension must not make existing compact implementations incomplete merely because they omit it.
+
 
 
 If you want to propose a new complementary file, include:
@@ -531,6 +533,8 @@ Examples may represent:
 
 
 ### Example requirements
+
+Show which modules the example adopts and why. Clearly distinguish developed documentation, planned components and evaluated outcomes. Examples should illustrate different valid configurations rather than imply that every course needs the same folders.
 
 
 
@@ -812,6 +816,9 @@ Before submitting a pull request, check:
 
 - The change preserves modularity.
 
+- The change makes selective adoption clear and does not create a universal folder checklist.
+- The proposed documentation has an identified purpose and a proportionate maintenance cost.
+
 - The change is relevant for AI-supported educational use.
 
 - The change respects privacy and ethical boundaries.
@@ -967,15 +974,10 @@ Recommended version logic:
 
 
 | Version | Meaning |
-
 |---|---|
-
 | `0.x` | Experimental drafts |
-
 | `1.0` | First stable public specification |
-
 | `1.x` | Backward-compatible improvements |
-
 | `2.0` | Major structural revision |
 
 
@@ -1013,21 +1015,13 @@ Maintainers should evaluate contributions according to:
 
 
 | Criterion | Guiding question |
-
 |---|---|
-
 | Pedagogical value | Does this improve course design documentation? |
-
 | Teacher usability | Can teachers understand and use it? |
-
 | AI relevance | Does it help AI systems act more coherently? |
-
 | Modularity | Is this in the right file? |
-
 | Ethical robustness | Does it respect privacy, fairness and human oversight? |
-
 | Interoperability | Can it work across contexts and platforms? |
-
 | Maintainability | Will it remain manageable over time? |
 
 

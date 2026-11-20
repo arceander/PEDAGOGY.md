@@ -14,6 +14,14 @@ It is intended for teachers, teaching teams, instructional designers and educati
 
 
 
+## Choose a proportionate starting point
+
+PEDAGOGY.md supports selective and proportionate adoption. Teachers and teaching teams choose the documentation components that serve their learning context. A course may keep the relevant information in a single PEDAGOGY.md file or develop selected complementary modules. The file and folder structures shown in this repository are examples of possible implementations; they do not prescribe a directory structure. Modules that are not adopted are not automatically pending or missing.
+
+Start by describing your actual course. Add a module when its information becomes difficult to maintain in the core or it serves a specific recurring task. Completion levels concern the depth of the relevant documentation, not the number of directories.
+
+---
+
 ## 1. What you need before starting
 
 
@@ -86,7 +94,14 @@ PEDAGOGY.md
 
 
 
-Recommended folder structure:
+A sufficient starting arrangement is:
+
+```text
+your-course/
+  PEDAGOGY.md
+```
+
+An optional expanded arrangement could be:
 
 
 
@@ -118,7 +133,7 @@ your-course/
 
 
 
-At the beginning, you only need **PEDAGOGY.md**. The other files can be added later if the course documentation grows.
+You may continue using only **PEDAGOGY.md** while it remains sufficient. Add only the extensions you choose; unused options are not a backlog to complete.
 
 
 
@@ -844,6 +859,8 @@ AI-generated outputs should be reviewed by a teacher before being used with stud
 
 ## 9. Derive complementary files
 
+Use the course's actual needs to decide which extensions to adopt. Record adopted modules, their locations, responsibilities and states in section 17. Mark an extension as planned only when the teacher intends to develop it. A module not adopted does not make the course incomplete.
+
 
 
 If a section becomes too long, move the details to a complementary file.
@@ -855,40 +872,30 @@ Recommended modularization:
 
 
 | Information | Recommended file |
-
 |---|---|
-
 | Core pedagogical logic | `PEDAGOGY.md` |
-
 | Detailed assessment system | `assessment.md` |
-
 | Activities and task instructions | `activities.md` |
-
-| Content, readings and resources | `content.md` |
-
+| Stable conceptual map and relevant readings | `content.md` |
+| Optional concept identities and relationships | `ontology.md` |
 | AI use rules | `ai-policy.md` |
-
 | Feedback templates and examples | `feedback.md` |
-
 | Case studies and scenarios | `cases.md` |
-
 | Rubrics | `rubrics/` |
-
 | Teaching materials | `resources/` |
-
 | AI assistant instructions | `agents/` |
-
 | Reusable prompts | `prompts/` |
-
 | AI-executable actions | `skills/` |
-
 | Learning evidence and analytics | `analytics.md` |
-
 | Ethical principles and boundaries | `ethics.md` |
 
 
 
 The core file should remain readable and maintainable.
+
+For an ontology, start with a small vocabulary if necessary; see the [ontology guide](ontology.md). For content, distinguish the conceptual map from session order. For activities, separate internal design information from learner instructions. The [file ecosystem guide](file-ecosystem.md) provides further patterns.
+
+The [Ant example](../examples/school-organization.md) uses persistent school cases. The [ICT example](../examples/ict-primary-education.md) does not adopt that system. A scenario inside an exercise does not require a separate case module.
 
 
 
@@ -1043,6 +1050,9 @@ Before using **PEDAGOGY.md** as course context, check:
 - [ ] Inclusion and accessibility have been considered.
 
 - [ ] Related files are referenced if needed.
+
+- [ ] The selected modules serve an identified need.
+- [ ] Non-adopted modules are distinguished from planned work.
 
 - [ ] The file has version information.
 

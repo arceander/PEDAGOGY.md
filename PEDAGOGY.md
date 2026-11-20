@@ -222,6 +222,8 @@ The file should describe the actual educational, institutional, curricular, orga
 
 ### 5.5 Modularity
 
+PEDAGOGY.md supports selective and proportionate adoption. Teachers and teaching teams choose the documentation components that serve their learning context. A course may keep the relevant information in a single PEDAGOGY.md file or develop selected complementary modules. The file and folder structures shown in this repository are examples of possible implementations; they do not prescribe a directory structure. Modules that are not adopted are not automatically pending or missing.
+
 
 
 The core file should remain manageable. More detailed information may be moved to complementary files such as `assessment.md`, `activities.md`, `ai-policy.md`, `feedback.md`, `cases.md` or `analytics.md`.
@@ -296,7 +298,9 @@ PEDAGOGY.md
 
 
 
-### Recommended complementary files
+### Optional complementary files
+
+Choose only the extensions that serve a documented purpose. Names below describe possible responsibilities, not files that every course must create.
 
 
 
@@ -307,6 +311,8 @@ assessment.md
 activities.md
 
 content.md
+
+ontology.md
 
 ai-policy.md
 
@@ -322,7 +328,7 @@ ethics.md
 
 
 
-### Recommended folders
+### Optional folders
 
 
 
@@ -357,6 +363,8 @@ schemas/
 
 
 A **PEDAGOGY.md** file may be completed at three levels.
+
+Completion levels describe the scope and depth of the pedagogical documentation, not the number of files or folders. An advanced implementation may remain compact. For sections or fields that do not apply, briefly explain this when useful rather than inventing content or treating an unused module as unfinished work.
 
 
 
@@ -870,6 +878,8 @@ AI systems should use this section to generate activities, explanations and reso
 
 ### 8.7 Content Organization
 
+Where relevant, distinguish the stable conceptual architecture from the teaching route used in a particular course edition. Sessions may combine or revisit topics without creating a second conceptual map. Optional concept identifiers can remain stable when the timetable or a concept's main location changes. An optional `ontology.md` can organize definitions and relationships; see the [ontology guide](docs/ontology.md).
+
 
 
 #### Purpose
@@ -939,6 +949,8 @@ AI systems should use this section to avoid fragmented, decontextualized or conc
 
 
 ### 8.8 Learning Activities
+
+Separate the information needed to design and maintain an activity from the instructions learners need to perform it. Record the purpose, observable learning, relevant content, expected output, criteria and AI conditions. Add timing, grouping and other metadata when useful. An internal inventory may be more detailed than the learner-facing worksheet; no universal activity codes or worksheet format are required.
 
 
 
@@ -1352,6 +1364,8 @@ AI systems should use this section to remain within their assigned role and avoi
 
 ### 8.13 AI Use Policy
 
+Connect the course policy to the permissions and conditions of each relevant activity. Where AI use must be declared, a declaration may record its purpose, use, tool and the checks or changes made by the learner. The teacher defines the local permissions; the Ant example does not prescribe a universal AI policy.
+
 
 
 #### Purpose
@@ -1670,111 +1684,56 @@ AI systems should use this section only within the defined limits for evidence, 
 
 ### 8.17 Related Files and Modular Extensions
 
-
-
 #### Purpose
 
-
-
-Define the relationship between **PEDAGOGY.md** and other complementary files.
-
-
+Identify the complementary documentation actually used by the course and the responsibility of each adopted module.
 
 #### Fields
 
-
-
 ```markdown
-
 ## 17. Related Files and Modular Extensions
 
+- Documentation arrangement: single file or selected complementary modules.
 
+| Module | Location | Function and scope | Status and version | Alignment and dependencies |
+|---|---|---|---|---|
+| Adopted module | Actual path or link | Information maintained here | Current development state | Relevant core decisions and related materials |
 
-- assessment.md:
-
-- activities.md:
-
-- content.md:
-
-- ai-policy.md:
-
-- feedback.md:
-
-- cases.md:
-
-- rubrics/:
-
-- resources/:
-
-- skills/:
-
-- prompts/:
-
-- agents/:
-
-- analytics.md:
-
-- ethics.md:
-
-- Other related files:
-
+- Explicitly planned work, if any:
+- Non-adopted modules worth mentioning, if any:
 ```
-
-
 
 #### Expected content
 
+Register the modules actually adopted. A single-file course can state that the relevant information remains in PEDAGOGY.md. There is no need to enumerate every unused option, create empty folders or copy the Ant implementation.
 
+Distinguish adopted modules, explicitly planned work, modules not adopted or not applicable, and retired or replaced materials. Within an adopted module, distinguish draft, teacher-approved design, implementation and evaluated results where relevant. These describe different kinds of evidence.
 
-This section should keep **PEDAGOGY.md** as the matrix file while allowing more detailed information to be modularized elsewhere.
+#### Optional responsibilities
 
+| Module | Possible responsibility |
+|---|---|
+| `content.md` | Stable content architecture and its relationship to the teaching route. |
+| `ontology.md` | Concept identities, preferred terms, definitions, relationships and locations. |
+| `activities.md` | Activity inventory, design metadata or detailed instructions. |
+| `assessment.md`, `rubrics/` | Assessment operations and task-specific criteria. |
+| `ai-policy.md`, `feedback.md` | Detailed AI conditions and feedback guidance. |
+| `cases.md`, `cases/` | Shared case design and individual persistent scenarios, when useful. |
+| `resources/` or a resource inventory | Sources, materials and their justified uses. |
+| `agents/`, `prompts/`, `skills/` | Selected assistant specifications and recurring workflows. |
+| `analytics.md`, `ethics.md` | Evidence interpretation and ethical governance. |
 
-
-#### Recommended interpretation
-
-
-
-- `assessment.md` develops the assessment system of the course.
-
-- `activities.md` details learning activities, sequences, timings and expected outputs.
-
-- `content.md` organizes course topics, readings, concepts and resources.
-
-- `ai-policy.md` expands the rules for AI use.
-
-- `feedback.md` specifies feedback templates, levels, tone and examples.
-
-- `cases.md` collects practical cases, problems, scenarios and simulations.
-
-- `rubrics/` stores specific rubrics.
-
-- `resources/` stores teaching and learning resources.
-
-- `skills/` defines specific actions that an AI can execute.
-
-- `prompts/` stores reusable prompts.
-
-- `agents/` describes educational agents derived from the course design.
-
-- `analytics.md` defines learning evidence and interpretation rules.
-
-- `ethics.md` develops ethical principles and boundaries.
-
-
+These responsibilities can be combined in fewer files or represented through other suitable linked materials. PEDAGOGY.md remains the Markdown entry point. The [file ecosystem guide](docs/file-ecosystem.md) describes the options.
 
 #### AI relevance
 
-
-
-AI systems should use this section to identify where more detailed information is stored and avoid overloading the core file.
-
-
+Read the course's actual module register and consult relevant current material. Do not infer that every illustrated module exists. PEDAGOGY.md maintains the general pedagogical decisions; adopted modules maintain their domain detail within those decisions. Content materials develop disciplinary meaning, while an ontology provides access definitions and conceptual relationships. A newer date alone does not make a proposal an approved decision.
 
 ---
 
-
-
 ### 8.18 Versioning and Maintenance
+
+When a change affects other materials, record which references, relationships or decisions need updating. Editorial adjustments may remain local; changes to core pedagogy or conceptual architecture should propagate to the relevant modules. Preserve identifier history when concepts or resources are merged, split, retired or replaced. Do not reuse retired identifiers. A module not adopted by the teacher is not a pending improvement.
 
 
 
@@ -1854,6 +1813,8 @@ A **PEDAGOGY.md** file should be evaluated according to the following quality cr
 
 ### 9.1 Completeness
 
+Completeness concerns the information relevant to the selected scope. It does not require every illustrated module, folder or optional field.
+
 
 
 The file includes the necessary sections for its intended level of use: minimum, recommended or advanced.
@@ -1929,6 +1890,8 @@ An AI system using **PEDAGOGY.md** should follow these rules.
 
 
 ### 10.1 General rules
+
+First identify the modules the course actually adopts. Use only relevant current files, preserve the distinction between proposals and validated decisions, and do not invent missing files or mark non-adopted modules as unfinished.
 
 
 
@@ -2014,6 +1977,8 @@ For example:
 
 ## 11. Relationship with complementary files
 
+PEDAGOGY.md supports selective and proportionate adoption. Teachers and teaching teams choose the documentation components that serve their learning context. A course may keep the relevant information in a single PEDAGOGY.md file or develop selected complementary modules. The file and folder structures shown in this repository are examples of possible implementations; they do not prescribe a directory structure. Modules that are not adopted are not automatically pending or missing.
+
 
 
 **PEDAGOGY.md** should remain the matrix file.
@@ -2029,33 +1994,21 @@ Recommended modular logic:
 
 
 | Type of information | Recommended location |
-
 |---|---|
-
 | Core pedagogical identity | `PEDAGOGY.md` |
-
 | Detailed assessment system | `assessment.md` |
-
 | Detailed activity designs | `activities.md` |
-
+| Stable conceptual map | `content.md` |
+| Concept identities and relationships | `ontology.md` |
 | Detailed AI policy | `ai-policy.md` |
-
 | Feedback examples and templates | `feedback.md` |
-
 | Case banks and simulations | `cases.md` |
-
 | Specific rubrics | `rubrics/` |
-
 | Teaching materials | `resources/` |
-
 | AI actions and workflows | `skills/` |
-
 | Reusable prompts | `prompts/` |
-
 | Agent specifications | `agents/` |
-
 | Analytics and evidence rules | `analytics.md` |
-
 | Ethical governance | `ethics.md` |
 
 
@@ -2077,15 +2030,10 @@ Recommended version labels:
 
 
 | Version | Meaning |
-
 |---|---|
-
 | `0.x` | Experimental versions |
-
 | `1.0` | First stable public specification |
-
 | `1.x` | Backward-compatible improvements |
-
 | `2.0` | Major structural revision |
 
 

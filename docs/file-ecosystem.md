@@ -20,6 +20,8 @@ When information becomes too long, too specific or too frequently updated, it sh
 
 ## 1. Core idea
 
+PEDAGOGY.md supports selective and proportionate adoption. Teachers and teaching teams choose the documentation components that serve their learning context. A course may keep the relevant information in a single PEDAGOGY.md file or develop selected complementary modules. The file and folder structures shown in this repository are examples of possible implementations; they do not prescribe a directory structure. Modules that are not adopted are not automatically pending or missing.
+
 
 
 The file ecosystem follows a modular principle:
@@ -48,11 +50,13 @@ The goal is to keep **PEDAGOGY.md** readable, stable and useful as a context fil
 
 
 
-## 2. Recommended repository structure
+## 2. Example repository structure
 
 
 
 A course-level implementation of **PEDAGOGY.md** may use the following structure:
+
+This is a menu illustrated as one possible arrangement. Create only what you adopt. Even advanced documentation can remain in one file; no empty folders or replica of Ant_26.27 are required.
 
 
 
@@ -240,6 +244,8 @@ Those details should be modularized.
 
 ## 4. Complementary files
 
+Every module in this section is optional. Responsibilities can be combined in a smaller arrangement. PEDAGOGY.md remains the Markdown entry point; an inventory may link to a spreadsheet or another suitable maintained format when helpful.
+
 
 
 ### 4.1 assessment.md
@@ -406,7 +412,13 @@ Lecture → Practice → Project → Reflection
 
 
 
-`activities.md` should describe each activity in detail.
+`activities.md` may maintain an inventory that points to detailed instructions rather than duplicating them.
+
+#### Internal design and learner instructions
+
+An internal activity record can hold identifiers, content anchors, learning outcomes, method, evidence, resources, case references, timing, criteria and AI conditions as needed. The learner-facing sheet should explain purpose, task, product, criteria and relevant conditions clearly. It does not need to display every internal field. A worksheet and its design inventory are complementary views.
+
+AI acknowledgements may record purpose, use, tool and the learner's checks or changes. Permissions remain a teacher-defined decision for the course and activity. Ant's TP/P labels, rubric scales and worksheet layout are examples, not universal requirements.
 
 
 
@@ -438,7 +450,9 @@ It expands the Content Organization section of **PEDAGOGY.md**.
 
 - conceptual blocks;
 
-- weekly sequence;
+- stable conceptual architecture and dependencies;
+
+- edition-specific teaching route, where relevant;
 
 - key concepts;
 
@@ -478,7 +492,9 @@ Use `content.md` when the course has many topics, readings, resources or concept
 
 
 
-`content.md` should provide the full content map.
+`content.md` should maintain the content map. A chapter or topic has a stable identity independent of the week in which it is taught. Sessions may select, combine and revisit content; record specific correspondences when they help planning and maintenance. Book chapters, slides and activities can serve different functions while remaining aligned.
+
+Where an ontology is adopted, content materials develop disciplinary meaning and the ontology organizes concept identities and relationships. It should point to the developed meaning rather than establish a competing syllabus.
 
 
 
@@ -694,7 +710,9 @@ Use `cases.md` when the course uses case-based learning, problem-based learning,
 
 
 
-`cases.md` should contain the actual case bank.
+`cases.md` may define the shared design, narrative rules, scaffolding and use of persistent scenarios, with individual cases in `cases/` or in the same file. Distinguish a case from the activities that use it. A scenario can be revisited to describe, interpret, diagnose or plan as learners develop their understanding. Record what is given, whose perspective is represented and what is an interpretation.
+
+A small example or one-off case can remain inside an activity. Adopt a separate case system only when it serves the course. Ant uses four persistent schools; the ICT configuration intentionally omits this module.
 
 
 
@@ -844,6 +862,14 @@ Use `ethics.md` when the course involves AI, student data, analytics, external p
 
 
 
+### 4.9 ontology.md
+
+An optional ontology maintains concept identities, preferred terms, access definitions, relationships and locations in the learning materials. It can help keep teaching materials and AI context conceptually aligned, including when teachers do not consult its entries directly.
+
+Use a vocabulary proportionate to the course. See the [ontology guide](ontology.md) for a minimal record, maintenance rules and a small example. A course may omit this module entirely.
+
+---
+
 ## 5. Folders
 
 
@@ -967,6 +993,20 @@ Use `resources/` when the course uses multiple documents, links, readings, slide
 ---
 
 
+
+#### Resource inventory and justified uses
+
+Where an inventory is useful, keep one identity per source and record its different uses as separate relationships. A compact record can contain an identifier, reference or link, access conditions, pedagogical contribution and relevant review information. Add source type, license or other metadata when it serves a real need.
+
+Distinguish source identity, pedagogical relevance and currency checks. Review requirements depend on source type: legislation and live institutional pages need different checks from a theoretical book. A structurally valid inventory does not establish that every claim in a source is correct or that a legal reference remains current.
+
+| Source | Target | Function | Justification |
+|---|---|---|---|
+| Local resource ID | Topic, concept or activity ID | Grounds, illustrates, contextualizes or regulates | Why the source serves this specific target |
+
+Use stable identifiers when reuse warrants them; a tiny collection may need only a short table. Ant's large spreadsheet is an example of an extended implementation.
+
+---
 
 ### 5.3 prompts/
 
@@ -1251,31 +1291,18 @@ Examples:
 
 
 | Information | Location |
-
 |---|---|
-
 | The course uses project-based learning | `PEDAGOGY.md` |
-
 | Full instructions for Project 1 | `activities.md` |
-
 | General assessment model | `PEDAGOGY.md` |
-
 | Rubric for Project 1 | `rubrics/project-1-rubric.md` |
-
 | General AI use policy | `PEDAGOGY.md` |
-
 | Task-specific AI use examples | `ai-policy.md` |
-
 | Feedback principles | `PEDAGOGY.md` |
-
 | Feedback templates | `feedback.md` |
-
 | Role of cases in the course | `PEDAGOGY.md` |
-
 | Full case bank | `cases.md` |
-
 | General analytics principles | `PEDAGOGY.md` |
-
 | Detailed data indicators | `analytics.md` |
 
 
@@ -1285,6 +1312,8 @@ Examples:
 
 
 ## 9. Minimal course implementation
+
+The structure below is sufficient when the relevant design is clear. The README is optional; the course-level PEDAGOGY.md can be the only file.
 
 
 
@@ -1325,6 +1354,8 @@ This is enough when:
 
 
 ## 10. Recommended course implementation
+
+This is an illustrative selection for a course with several documentation needs. It is not a set of required directories and may be reduced or combined.
 
 
 
@@ -1379,6 +1410,8 @@ This is suitable when:
 
 
 ## 11. Advanced course implementation
+
+This is one possible larger arrangement. Advanced depth does not require this many files, or the adoption of cases, analytics, agents or an ontology when they do not serve the course.
 
 
 
@@ -1449,6 +1482,8 @@ This is suitable when:
 
 
 ## 12. Example: university course with AI assistant
+
+This configuration intentionally omits a persistent case module. Scenarios embedded in individual exercises may still be useful. See the [ICT course example](../examples/ict-primary-education.md).
 
 
 
@@ -1544,6 +1579,8 @@ In this example:
 
 ## 13. Example: school organization course with cases
 
+This configuration adopts persistent scenarios to support repeated organizational analysis. See the [Ant_26.27 example](../examples/school-organization.md), including its ontology and development state. Other courses do not need to copy it.
+
 
 
 Example structure:
@@ -1624,6 +1661,25 @@ In this example:
 
 ## 14. Versioning across files
 
+### Module register and development states
+
+Maintain a concise register in the course-level PEDAGOGY.md when complementary modules are adopted. For each adopted module, record its location, function, state and version; add alignment and dependencies where useful. A single-file course can simply state its arrangement.
+
+| Selection state | Meaning |
+|---|---|
+| Adopted | Included in this implementation; also record its development state. |
+| Explicitly planned | The teacher intends to develop it and has recorded that intention. |
+| Not adopted or not applicable | Valid local selection; not automatically missing or pending. |
+| Retired or replaced | No longer used; preserve history when references depend on it. |
+
+For adopted material, distinguish a draft, a teacher-approved design, use in teaching and evaluated results where relevant. Teacher approval of a design is not evidence of its educational effects. There is no need to list every option that is not adopted.
+
+### Identifiers and change propagation
+
+Use identifiers when they help reuse or relationships. Preserve identities across timetable changes, and do not reuse retired IDs. Record mergers, splits and replacements with their history. Ant's codes are one local convention, not a required schema.
+
+Before changing a shared concept, criterion, source or architectural decision, identify the related materials. Keep editorial adjustments local when appropriate; update dependent modules when the change affects them. A newer timestamp alone does not establish an approved decision.
+
 
 
 When complementary files are used, versioning should remain consistent.
@@ -1696,7 +1752,7 @@ When an AI system uses the file ecosystem, it should follow this order:
 
 2. Identify the relevant task.
 
-3. Check whether **PEDAGOGY.md** points to a complementary file.
+3. Read the actual module register and identify the relevant adopted files. Do not assume every illustrated option exists.
 
 4. Use the complementary file only for the specific detail needed.
 
@@ -1724,7 +1780,7 @@ A user asks the AI to give feedback on Project 2.
 
 
 
-The AI should read:
+When the relevant files exist and are adopted, the AI should read:
 
 
 
@@ -1745,6 +1801,8 @@ The AI should read:
 
 
 ## 16. Handling contradictions
+
+Resolve contradictions within the scope of each source and the teacher's validated decisions. Check development state as well as dates. Content materials develop disciplinary meaning; an ontology provides access definitions and relationships, and a resource inventory maintains source metadata. If clarification is essential, identify the exact issue rather than treating the absence of an optional module as a contradiction.
 
 
 
@@ -1799,27 +1857,19 @@ Examples:
 
 
 | Issue | Primary file |
-
 |---|---|
-
 | General course logic | `PEDAGOGY.md` |
-
 | Detailed assessment | `assessment.md` |
-
 | Detailed activities | `activities.md` |
-
 | Detailed AI rules | `ai-policy.md` |
-
 | Feedback templates | `feedback.md` |
-
-| Case content | `cases.md` |
-
+| Case design and content | Adopted `cases.md` / `cases/` |
+| Developed disciplinary meaning | Current content materials |
+| Concept identities and relationships | Adopted `ontology.md` |
+| Source metadata and documented uses | Adopted resource inventory |
 | Rubric descriptors | `rubrics/` |
-
 | Agent-specific behaviour | `agents/` |
-
 | Analytics indicators | `analytics.md` |
-
 | Ethics and governance | `ethics.md` |
 
 
@@ -1830,6 +1880,8 @@ Examples:
 
 ## 17. Maintenance checklist
 
+Apply each check only to the material the course adopts. Optional modules not adopted do not need to be created to pass this checklist.
+
 
 
 Use this checklist when maintaining a course file ecosystem.
@@ -1837,6 +1889,10 @@ Use this checklist when maintaining a course file ecosystem.
 
 
 - [ ] `PEDAGOGY.md` is current.
+
+- [ ] The module register reflects the actual selection and development states.
+- [ ] Changes affecting related material have been propagated.
+- [ ] Concept and resource identifiers preserve their history where used.
 
 - [ ] Complementary files reference the current version of `PEDAGOGY.md`.
 
